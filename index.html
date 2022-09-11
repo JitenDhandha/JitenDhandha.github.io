@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Dimension by HTML5 UP
+	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -14,482 +14,161 @@
 	</head>
 	<body class="is-preload">
 
-	<!--Below is necessary for formulas :)-->
-	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-	<script>
-    MathJax = {
-        tex: {
-            inlineMath: [['$', '$'], ['\\(', '\\)']]
-        },
-        chtml: {
-            scale: 0.9
-        },
-        svg: {
-            scale: 0.9
-        }
-    };
-	</script>
-	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-	<!--Above is necessary for formulas :)-->
-
-	<script>
-	function swap_icon(x) {
-	  x.classList.toggle("solid");
-	} 
-	</script>
-
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-star" id="top-icon" onclick="swap_icon(this)"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Jiten Dhandha</h1>
-								<h4>PhD student • Institute of Astronomy, University of Cambridge</h4>
-								<p>Greetings fellow traveller of the cosmos. Welcome to my website. <br/> Below you will find more information about me and my work. Click away!</p>
-							</div>
-						</div>
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Jiten</strong> <span>Dhandha</span></a>
 						<nav>
-							<ul>
-								<li><a href="#aboutme">about me</a></li>
-								<li><a href="#work">work</a></li>
-								<li><a href="#publications">publications</a></li>
-								<li><a href="#CV">CV</a></li>
-								<li><a href="#contact">contact</a></li>
-							</ul>
+							<a href="#menu">Menu</a>
 						</nav>
 					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about-me.html">About me</a></li>
+							<li><a href="my-work.html">My work</a></li>
+							<li><a href="publications.html">Publications</a></li>
+							<li><a href="#" class="disabled">Outreach</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="files/CV.pdf" class="button icon primary fit solid fa-download">Curriculum Vitae</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>'Ello traveller, my name is Jiten!</h1>
+							</header>
+							<div class="content">
+								<p>I am a PhD student at the Insitute of Astronomy at Cambridge.<br/>
+								To find more about me and my work, click away!</p>
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Get Started</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
 
 				<!-- Main -->
 					<div id="main">
 
-						<!-- About Me -->
-							<article id="aboutme">
-								<h2 class="major">About Me</h2>
-								<blockquote>We began as wanderers, and we are wanderers still. We have lingered long enough on the shores of the cosmic ocean. We are ready at last to set sail for the stars.</br>Carl Sagan (Cosmos, p. 193)</blockquote>
-								<span class="image main"><img src="images/Profile-pic.png" alt="Hello"/></span>
-								<p> Hello! My name is Jiten Dhandha! I originally hail from a small town in India, but made my way across the world to the United Kingdom. I am first and foremost, an astrophysicist (albeit, an early-career astrophysicist). I love learning and talking about space! More specifically, I love studying the large scale structures in our Universe and their evolution, what we call 'cosmology'. In pursuit of this curiousity, I recently graduated from the University of Manchester with an MPhys (Hons) in Physics with Astrophysics. I soon start my PhD in Astronomy at the Institute of Astronomy, University of Cambridge studying the global 21-cm signal and its observations through the <a href="https://www.astro.phy.cam.ac.uk/research/research-projects/reach ">REACH telescope</a>. You can get an overview of this topic and my other projects over at the <a href="#work">work</a> section.</p>
-								</hr>
-								<h3 class="major">More self-indulgence</h3>
-								<p>When I am not raving about space, ranting about errors in my analysis codes or involving myself in too many projects, I find myself doing one or more of the following things (in no specific order):
-								<ul>
-									<li>consuming unearthly amounts of masala chai</li>
-									<li>playing touch rugby</li>
-									<li>pretending to be a half-elephant, half-human in Dungeons & Dragons</li>
-									<li>solving math puzzles or competitive coding problems</li>
-									<li>playing Runescape, Factorio and other assorted video-games</li>
-									<li>editing Wikipedia</li>
-								</ul>
-								</p>
-								<p>In addition to these, I love cooking Indian food (something very close to my heart) and frequently attempt new dishes. <i>If you ever find yourself in Cambridge, please shoot me a message for a nice masala chai or a hearty curry, and I would be absolutely delighted to have you as a guest.</i></p>
-							</article>
-
-						<!-- Work -->
-
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<p>Click on each of the topics below to explore my work and the physics around it! :) They are presented in reverse-chronological order.</p>
-								<h3 class="major">Undergraduate research</h3>
-								<ul class="actions stacked">
-									<li><a href="#global21cmsignal" class="button">Global 21-cm signal</a></li>
-									<li><a href="#" class="button disabled">Turbulence in clouds</a></li>
-									<li><a href="#" class="button disabled">Lens imaging with LOFAR</a></li>
-								</ul>
-							</article>
-
-							<article id="global21cmsignal">
-								<ul class="actions stacked">
-									<li><a href="#work" class="button">Back</a></li>
-								</ul>
-								<h3 class="major">Global 21-cm signal</h3>
-								<p> Hydrogen is the most abundant element in our Universe, accounting for roughly 74% of all baryonic matter, and was formed very early on, about 3 minutes after the Big Bang in a process called <i>Big Bang Nucleosynthesis</i>. The 21-cm spectral line is associated with the hyperfine splitting of the hydrogen atom ground state $1s$ into two states due to the the interaction of the magnetic moments of the proton and the electron. If the spin of the proton and electron are anti-parallel, their magnetic dipole moments are parallel and it corresponds to a lower energy level since parallel currents (imagine tiny loops of current) attract. This state is the singlet $1_{0}S_{1/2}$ state (note that the notation used here is $n_F L_J$). If the spin of the proton and electron are parallel, their magnetic dipole moments are anti-parallel, and it corresponds to a higher energy state, the triplet $1_{1}S_{1/2}$ state. A transition from the higher state to a lower state corresponds to an energy release of $\Delta E \approx 5.9 \times 10^{-6}~\text{eV}$ or equivalently a photon wavelength of $\lambda_{21} \approx 21.1~\text{cm}$ and frequency of $\nu_{21} \approx 1420~\text{MHz}$.</p>
-								<span class="image main"><img src="images/H-hyperfine-states.png"/></span>
-								<p>One can expect that lots of patches of hydrogen everywhere in the Universe would be constantly emitting and absorbing 21-cm photons, throughout its history. And that is correct! That is exact what 21-cm cosmology is about. By detecting ancient 21-cm signals, we can get a clear picture of the Universe's past.</p>
-
-								<h4 class="major">How does this actually work?</h4>
-								<p> "Soon" after the Big Bang, roughly 300,000 years after and corresponding to a redshift of $z=1100$, the Universe underwent a rapid change from being opaque to transparent (called the <i>Recombination era</i>) when all protons and electrons combined to form hydrogen atoms. Now, I mentioned that hydrogen formed 3 minutes after the Big Bang; that's true, but a more accurate description would be that protons and electrons were submerged in a bath of photons that would constantly ionize hydrogen once formed. So there was a balance of combination and ionization, leading to not many hydrogen atoms sticking around. Over time, the photons lost enough of their energy to cosmic expansion that they could no longer reionize hydrogen, and lo! Recombination occured! Hydrogen was now abundant and these photons were free to whiz through the Universe, i.e. the Universe was transparent. We still observe these early photons, in the form of cosmic micorwave background (CMB), and they provide a wealth of information about the nature of the Universe and its past.</p>
-
-								<h4 class="major">How does this relate to 21-cm?</h4>
-								<p> I was just getting to that! The CMB, as we know it, is the most perfect blackbody in nature, with a current temperature of $T_\text{CMB} \approx 3~\text{K}$. It follows Planck's law extra-ordinarily well. Which means that CMB photons are spread across all wavelengths, albeit with low probability away from the peak!
-								<span class="image main"><img src="images/CMB-blackbody.png"/></span>
-								As these CMB photons hit patches of hydrogen atoms in their attempt to roam around the Universe, those in the 21-cm regime are absorbed to give an 'absorption signal'. Meanwhile, patches of hydrogen that are energetic enough may emit 21-cm wavelength and give 'emission signal'. Hence, the 21-cm signals are always measured in emision or absorption against the CMB spectrum. One can think of the CMB as a sort of "backlight" coming from the <i>the surface of last scattering</i> (technical term) towards us.</p>
-								<p>Now, imagine we are at the center of the Universe (in fact, this is accurate and perfectly valid due to the <i>Cosmological Principle</i>). We attempt to receive 21-cm signals from all directions. Patches of hydrogen across the sky give out emission/absorption signals that take time to reach us. Our cosmos is ever expanding, so these signals actually redshift as they travel (why? Well, redshift means moving towards redder wavelengths, i.e. higher wavelengths; imagine a sine wave stretching due to cosmic expansion). The deeper you look into space (on cosmological scales), the older the signal, and the more redshifted they are. Hence, the 21-cm signals are actually spread across many wavelengths, and not observed at 21-cm! Odd right? But that's the beauty of it: by observing the signals at different wavelengths, we can assign the signals at each wavelength to a particular time in the Universe's past. In our current visualization, this directly corresponds to "shells" around the Earth from which signals travelling towards us take the same amount of time to reach. Each shell is a distinct time in the Universe's history, or if you prefer, a redshift $z$ (note that redshift is defined as $z+1 = \lambda_\text{then}/\lambda_\text{now}$, so a higher redshift means older times). The 21-cm light from this shell, when it reaches us, would have the wavelength $\lambda = \lambda_{21}(1+z)$. Time, redshift and wavelength are equivalent ways to look at an instant in the Universe's past with regards to the 21-cm signal!</p>
-
-								<p> For those with some technical background, I'll mention here that the 21-cm signals essentially form <i>spectral distortions</i> to the CMB black body in the frequency range 40 — 200 MHz.</p>
-								</hr>
-								<h4 class="major">About the "global" thing...</h4>
-								<p> I keep using the word "patches". Well, hydrogen is not homogenuously distributed in the Universe; it is patchy and these patches evolve, merge, do the hanky-panky and all sorts. So in a particular shell around Earth, we may have some patches absorbing 21-cm signals and others emitting 21-cm signals. When these are averaged across the sky (across a shell essentially when a particular wavelength is picked), we get what is called the <i>global 21-cm signal</i>. If we have a net-emission, that means most hydrogen atoms are <i>more</i> energetic than their surrounding CMB photons, and the opposite in case of net-absorption.</p>
-								</hr>
-								<h4 class="major">Give us some math!</h4>
-								<p> Okay, okay... well, let's do some math. Astronomers love defining temperatures wherever possible, so lets define something called the spin temperature $T_\text{s}$ which gives an idea of the state of hydrogen atoms in the Universe.
-								\[\dfrac{n_1}{n_0} \equiv 3 e^{-T_\star/T_\text{s}}\]
-								Here, $n_1$ is the occupancy of the upper hyperfine state and $n_0$ is the occupancy of the lower hyperfine state (i.e., the number density of hydrogens in that state). $T_\star = h\nu_{21}/k_\text{B}=0.068~\text{K}$ is a constant, and the $3$ up-front is a statistical degeneracy factor. The evolution of the spin temperature through cosmic time is determined by three factors that can cause a spin-flip (i.e, a change from $n_0$ to $n_1$ or vice-versa):
-								<ol>
-									<li><b>Radiative coupling</b> — As CMB photons collide with hydrogen atoms, they bring the the spin temperature $T_\text{s}$ closer to the CMB temperature at that redshift $T_\text{CMB}$. And as discussed previously, we detect the absorption of 21cm photons from the CMB radiation field or emission of 21cm photons on top of the CMB radiation field. If $T_\text{s} = T_\text{CMB}$, i.e. CMB photons and hydrogen atoms are in equilibrium, we would have no 21-cm signal!</li>
-									<li><b>Collisional coupling</b> — The electrons, protons and other hydrogen atoms are part of the commotion in our Universe. So collisions between these species and hydrogen atoms drives $T_\text{s}$ towards a quantity called the matter temperature $T_M$ (simply a measure of how energetic the particles are!). This pulls away </li>
-									<li><b>Wouthuysen-Field coupling</b> — This one is tricker to explain. A Lyman-$\alpha$ photon corresponds to the energy transition between $n = 1$ and $n = 2$ states of an hydrogen atom. Some time 100 million years after the Big Bang, corresponding to a redshift of $z \sim 30$, the first stars and galaxies are formed. These stars pump a lot of ultra-violet (UV) radiation into the interstellar/intergalacitic medium. Ly$\alpha$ line falls within this UV spectrum. So, how does these photons affect the spin temperature? Well, the energy of transition is not <i>exactly</i> the same for each photon; it is roughly the $n = 1$ and $n = 2$ transition, but these states are split into hyperfine energy states. The diagram below shows the Wouthuysen-Field (WF) mechanism. Note the electric dipole selection rule $\Delta F = 0,1$ with no $F = 0 \rightarrow 0$. Solid line transitions show spin flips, while the dashed lines transitions are allowed but do not contribute to spin flip. As an example, consider a hydrogen atom in the hyperfine singlet ground state $1_0S_{1/2}$. When it absorbs a Ly$\alpha$ photon, it can excite to the $2_1 P_{1/2}$ and then re-emit a Ly$\alpha$ photon to drop back down to the $1_1 S_{1/2}$ state. Similarly, photoexcitation out of the triplet state and relaxation to the singlet state can occur too. The overall result is a spin flip. Hence, in this manner, resonant scattering of Ly$\alpha$ photons can change the relative occupation of the two hyperfine ground state of a hydrogen atom. The coupling drives the spin temperature $T_\text{s}$ to the 'colour temperature' of the Ly$\alpha$ radiation field $T_\alpha$. For most purposes, one can assume $T_\alpha \sim T_M$. Hence, the WF coupling provides an alternate mechanism for $T_\text{s}$ to couple to $T_M$.</li>
-								</ol>
-								</p>
-								<span class="image main"><img src="images/WF-coupling.png"/></span>
-								</hr>
-								<h4 class="major">Bringing things together</h4>
-								<p>Okay, that was quite a bit! Let's collect these things into a single definition equation:
-								\[T_\text{s} ^{-1}= \dfrac{x_\text{CMB} T_\text{CMB}^{-1} + x_c T_\text{M}^{-1} + x_\alpha T_\alpha^{-1}}{x_\text{CMB}+ x_c +x_\alpha}\]
-								We already introduced $T_\text{CMB}$, $T_M$ and $T_C$ — our main ingredients. The expression somewhat resembles a harmonic mean, with the coupling coefficients $x_\text{CMB}$, $x_c$ and $x_\alpha$ acting as the weights. These coefficients are not constant but change as a function of redshift $z$. For example, the collisional coupling coefficient $x_c$ intuitively depends on the density of electrons, proton and hydrogen atoms in the Universe. So, higher density $\rightarrow$ more collisions $\rightarrow$ stronger coupling to the matter temperature $T_M$! And the densities are changing over time (equivalently, over redshift) due to cosmic expansion. I alluded several times to the fact that what we "observe" is not the spin temperature itself, but its contrast with the CMB temperature. We define this quantity as the differential brightness temperature $\Delta T_\text{b}$ which is defined by:
-								\[\Delta T_\text{b} = \dfrac{\left(1-e^{-\tau_{21}}\right)}{1+z}\left(T_\text{s}-T_\text{CMB} \right).\]
-								Now, the exact expression is not important, but the main bit of interest is that $\Delta T_\text{b} \propto (T_\text{s}-T_\text{CMB})$. Recall how I said there would be no signal if $T_\text{s} = T_\text{CMB}$; this is why! Furthermore, $T_\text{s} > T_\text{CMB}$ corresponds to a net-emision signal and the other way around for net-absorption.</p>
-								<h4 class="major">Global signal evolution</h4>
-								<p>A large amount of theoretical work has already gone into modelling the 21-cm spin temperature and differential brightness temperature; I refer interested readers to the wonderful reviews by <a href="https://arxiv.org/abs/astro-ph/0608032">Furlanetto, Oh & Briggs (2006)</a>; <a href="https://arxiv.org/abs/0802.2102">Prichard & Loeb (2012)</a>; and <a href="https://arxiv.org/abs/1605.04357">Barkana (2016)</a>. These texts explain everything I have said so far with all the nitty-gritty technical details of the modelling (specifically, how the coupling coefficients and temperatures can be derived and simulated), and provide a lot more insight into the field of 21-cm cosmology itself.</p>
-
-								<p>Here's where my work comes in. Through the summer of 2021, under the supervision of <b>Prof. Jens Chluba at the University of Manchester</b>, I recreated the 'standard' evolution of the $T_\text{s}$ and $\Delta T_\text{b}$ within this cosmological codes $\texttt{Recfast++}$ and $\texttt{CosmoTherm}$.</p> 
-
-								<p>So what does this evolution actually look like? Let's look at the plots I produced in my work:</p>
-								<span class="image main"><img src="images/21cm-signal-Ts.png"/></span>
-
-								<span class="image main"><img src="images/21cm-signal-dTb.png"/></span>
-								<p>The first plot shows the evolution of $T_\text{s}$ along with $T_\text{CMB}$ and $T_\text{M}$, while the second plot shows the evolution of $\Delta T_\text{b}$. Note that the $x$-axis on both plots are logarithmic and describe the time scale as redshift $1+z$ meaning that the plot is read from right to left (increasing in age of the Universe towards present times with $z=0$ being today). Right off the bat, in the first plot, we see that the CMB temperature ($T_\text{CMB}$) follows a linear $1+z$ trend. All CMB photons are being redshifted due to cosmic expansion, following the same temperature trend as their wavelengths. Furthermore, things are roughly becoming cooler (called Hubble cooling). Well, an expanding Universe means it is getting less dense, and particles are no longer tussling with each other for <i>space</i> (hehe). So they becomes less energetic and attain a lower temperature. But well, there's lots more going in the plot. So let's break this it down into sections:
-								<ul>
-									<li>$z>1000$ — At very early times (i.e. high redshifts), when the Universe is younger than $\approx$ 0.4 million years in age, $T_\text{CMB}$ and $T_M$ are strongly coupled. The CMB photons and different matter particles (protons, electrons, hydrogen atoms) are all tussling together in a highly dense Universe, basically distributing the energy equally between everything that existed. No 21-cm signal is seen in this era purely because all hydrogen wasn't abundant at all and constantly being ionized (recall that Recombination only occured at $z=1100$).</li>
-									<li>$100 < z < 1000$ — This is approximately the time span between $\approx$ 0.4 million years to $\approx$ 16 million years, and is called the Dark Ages (you'll see why!). We see that $T_M$ starts to depart from $T_\text{CMB}$ in this time span. Although the CMB and matter decoupled at Recombination, the process of Thomson scattering is efficient enough to keep their temperatures relatively close until much after, upto order of $z=100$ redshits. But eventually, as we can see, the Hubble cooling wins. Despite the Universe expanding, the density of electrons, protons and hydrogen is enough for the spin temperature $T_\text{s}$ to be collisionally coupled to $T_M$. Starting to see some signal absorption signal $\Delta T_\text{b}$ here.</li>
-									<li>$100 < z < 30$ — $T_M$ keeps cooling, $T_\text{CMB}$ does it's own $z+1$ thing. All's well. But what's with $T_\text{s}$? Turns out during this era, the density of matter is too small to keep collisional coupling efficient and so, radiative coupling takes over and brings $T_\text{s}$ close to $T_\text{CMB}$. And subsequently, the absorption signal $\Delta T_\text{b}$ is becoming less intense.</li>
-									<li>$6 < z < 30 $ — BAM! What was that? Oh wow, we now have the first stars and galaxies forming. Intense! A redshift of $z=30$ is roughly 100 million years after the Big Bang. This era is called the Cosmic Dawn; the Universe just went from no stars during the Dark Ages to <i>looooots</i> of star formation and energetic photons, opening up the possibility for funky astrophysical activities to take place. These stars pump UV into the Universe which starts to heat up everything, slowing down $T_M$ from cooling and shooting it up towards higher temperatures from $z \sim 20$. Remember Wouthuysen-Field coupling? The Lyman-$\alpha$ photons from the stars kick start the WF mechanism through which we can again couple $T_\text{s}$ to $T_M$. This is why $T_\text{s}$ is jolted back towards $T_M$ at $z \sim 30$ and is strongly coupled to it by $z=20$. Hence, we see a massive absorption signal $\Delta T_\text{b}$ here, peaking around $z \sim 20$! In fact, not long after, $T_M$ (and with it, $T_\text{s}$) become higher than $T_\text{CMB}$, thereby decreasing the absorption signal to eventually become an emission signal!</li>
-									<li>$z<6$ — At very recent times, you'll notice the plots are greyed out. This means that the abundance of stars and galaxies have introduced such a huge complexity into the Universe that basic models cannot capture things well. But does it matter? Well, not really! During the Cosmic Dawn and subsequent times, the stars have emitted so much UV light that all the hydrogen is ionized (an event called Reionization). If there are no hydrogen atoms, that means no 21-cm signal anymore. Hence, $\Delta T_\text{b}$ tends towards zero at such late times in the Universe (or equivalently, as we move closer to today).</li>
-								</ul>
-								</p>
-								<h4 class="major">Is this consistent with literature?</h4>
-								Like I said, my task was to recreate the standard evolution of the 21-cm signal. Here's a plot from <a href="https://arxiv.org/abs/0802.2102">Prichard & Loeb (2008)</a>:
-								<span class="image main"><img src="images/21cm-signal-literature.png"/></span>
-								It's largely consistent! Phew, such a relief. Furthermore, here's an excellent illustration from <a href="https://arxiv.org/abs/0802.2102">Prichard & Loeb (2012)</a> which links time since Big Bang, redshifts $z$, and the redshifted frequency of the signal $\nu$ (important for observations!) all with a nice figure of the patchiness of hydrogen (blue being absorption signal and red being emission signal) which was not relevant to my work (remember, 'global' signal is what I care about!):
-								<span class="image main"><img src="images/21cm-illustration.png"/></span>
-
-								<h4 class="major">Why do we care?</h4>
-
-								<p>The 21-cm signal is one of the best probes for the Dark Ages and the Cosmic Dawn. By looking at the exact shape of $\Delta T_\text{b}$, we can extract information about the first stars and galaxies by putting constraints on a range of Reionization parameters. However, a detection of this global 21-cm signal has evaded us for a long time. The signal is heavily obscured by strong foreground galactic emissions, which need to be accurately modelled in order to be subtracted from the data. Furthermore, a detection requires a well calibrated antenna with the ability to make sensitive measurements! A number of such experiments chasing this signal are underway, and it will be exciting to see how upcoming detections can be used in conjunction with high-$z$ galaxy data from the JWST to make even better constraints on the history of our Universe!
-
-								<h4 class="major">Links to my work:</h4>
-								<ul>
-								<li>You can check out my global 21-cm signal modelling as an added module to $\texttt{Recfast++}$ here:&nbsp;&nbsp;<a href="https://bitbucket.org/Jacetoto/recfast-.vx/src/Recfast_JD_21cm_modelling/">21cm in Recfast++</a>.
-								<li>A similar implementation in $\texttt{CosmoTherm}$ is not currently public. Stay tuned for upcoming publications!</li>
-								<li>As an addition to this project, I also made a Python wrapper for $\texttt{Recfast++}$ which can be found here: <a href="https://bitbucket.org/Jacetoto/recfast-.vx/src/Python-wrapper/">Recfast++ Python wrapper</a>.
-								<ul>
-
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/about-me-preview.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="about-me.html" class="link">About me</a></h3>
+										<p>A brief peek into my life</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/my-work-preview.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="my-work.html" class="link">My work</a></h3>
+										<p>A meander into the world of astro</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/publications-preview.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="publications.html" class="link">Publications</a></h3>
+										<p>A culmination of efforts</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="" class="link disabled">Outreach</a></h3>
+										<p>Coming soon...</p>
+									</header>
+								</article>
+							</section>
 					
+					</div>
 
-							</article>
-
-						<!-- Publications -->
-							<article id="publications">
-								<h3 class="major">Publications</h3>
-								<ul>
-									<li>Badole, S., Venkattu, D., Jackson, N., et al. (2022) High-resolution imaging with the International LOFAR Telescope: Observations of the gravitational lenses MG 0751+2716 and CLASS B1600+434. <i>Astronomy & Astrophysics</i>, 658, A7. <a href="https://doi.org/10.1051/0004-6361/202141227">doi:10.1051/0004-6361/202141227</a>. <a href="https://arxiv.org/abs/2108.07293">arXiv:2108.07293</a>.</li>
-								</ul>
-								<hr />
-								<h3 class="major">External links</h2>
-								<ul class="actions">
-									<li><a href="https://arxiv.org/search/astro-ph?searchtype=author&query=Dhandha%2C+J" class="button">arXiv</a></li>
-									<li><a href="https://orcid.org/0000-0002-1481-0907" class="button">ORCiD</a></li>
-									<li><a href="https://scholar.google.com/citations?user=RjlmcA0AAAAJ" class="button">Google Scholar</a></li>
-								</ul>
-							</article>
-
-							<!-- CV -->
-							<article id="CV">
-								<h2 class="major">Curriculum vitae</h2>
-								<p>Click the following link to view and download my CV:&nbsp;&nbsp;
-								<a href="files/CV.pdf" class="button icon solid fa-download">CV.pdf</a> </p>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<p> To contact me for academic or professional purposes, please send an email to <a href = "mailto: jiten.dhandha@student.manchester.ac.uk">jiten.dhandha@student.manchester.ac.uk</a>. Alternately, fill the form below for a casual message. I love chatting!</p> 
-								<form method="post" action="assets/php/contact.php">
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="Name" id="name" placeholder="e.g. Galileo Galilei" required/>
+											<input type="text" name="name" placeholder="e.g. Galileo Galilei" id="name" required/>
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="Email" id="email" placeholder="e.g. GalGal@gmail.com" required/>
+											<input type="text" name="email" placeholder="e.g. GalGal@gmail.com" id="email" required/>
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="Message" id="message" rows="4" placeholder="e.g. My telescope is bigger than your telescope!" required></textarea>
+											<textarea name="message" id="message" placeholder="e.g. My telescope is bigger than your telescope!" rows="6" required></textarea>
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary disabled"></li>
-										<li><input type="reset" value="Reset" /></li>
+										<li><input type="submit" value="Send Message" class="primary disabled" /></li>
+										<li><input type="reset" value="Clear" /></li>
 									</ul>
 								</form>
-								<ul class="icons">
-									<li><a href="https://twitter.com/currysmologist" class="icon brands fa-twitter" title="Follow on Twitter!"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.instagram.com/jiten.dhandha" class="icon brands fa-instagram" title="Follow on Instagram!"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/JitenDhandha" class="icon brands fa-github" title="Check out my Github!"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
-
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
+							</section>
+							<section class="split">
 								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Contact</h3>
+										Whether it is for academic purposes, or you just want to casually message,
+										please do contact me! I love to chat!!<br><br>
+										<b>Personal: </b><a href="#">jiten [a] dhandha [dot] com</a><br/>
+										<b>Academic: </b><a href="#">jvd29 [a] cam [dot] ac [dot] uk</a><br/>
 									</div>
 								</section>
-
 								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Visit</h3>
+										<i>If you ever find yourself in Cambridge, please shoot me a message for a 
+											nice masala chai or a hearty curry, and I would be absolutely delighted 
+											to have you as a guest :)</i>
+									</div>
 								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
-					</div>
+						</div>
+					</section>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">Image credits: <a href="https://webbtelescope.org/contents/media/images/2022/031/01G77PKB8NKR7S8Z6HBXMYATGJ">JWST</a>. Design adapted from: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://twitter.com/currysmologist" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.instagram.com/jiten.dhandha" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/JitenDhandha" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in disabled"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>Banner image credits: <a href="https://webbtelescope.org/contents/media/images/2022/031/01G77PKB8NKR7S8Z6HBXMYATGJ">JWST</a></li><li>Design adapted from: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
 					</footer>
 
 			</div>
 
-		<!-- BG -->
-			<div id="bg"></div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
