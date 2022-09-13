@@ -58,41 +58,49 @@
 						<!-- One -->
 							<section id="one">
 								<div class="inner">
+
+									<!--Introduction-->
 									<header class="major">
 										<h3>Introduction</h3>
 									</header>
 									<p> Hydrogen is the most abundant element in our Universe, accounting for roughly 74% of all baryonic matter, and was formed very early on, about 3 minutes after the Big Bang in a process called <i>Big Bang Nucleosynthesis</i>. The 21-cm spectral line is associated with the hyperfine splitting of the hydrogen atom ground state $1s$ into two states due to the the interaction of the magnetic moments of the proton and the electron. If the spin of the proton and electron are anti-parallel, their magnetic dipole moments are parallel and it corresponds to a lower energy level since parallel currents (imagine tiny loops of current) attract. This state is the singlet $1_{0}S_{1/2}$ state (note that the notation used here is $n_F L_J$). If the spin of the proton and electron are parallel, their magnetic dipole moments are anti-parallel, and it corresponds to a higher energy state, the triplet $1_{1}S_{1/2}$ state. A transition from the higher state to a lower state corresponds to an energy release of $\Delta E \approx 5.9 \times 10^{-6}~\text{eV}$ or equivalently a photon wavelength of $\lambda_{21} \approx 21.1~\text{cm}$ and frequency of $\nu_{21} \approx 1420~\text{MHz}$.</p>
 									<div class="box alt">
-										<div class="row aln-center">
-											<div class="col-5">
+										<div class="custom-image">
+											<div class="half">
 												<span class="image fit"><img src="global-21cm-cosmological-signal/H-hyperfine-states.png" alt="" /></span>
-											</div>
 										</div>
 									</div>
 									<p>One can expect that lots of patches of hydrogen everywhere in the Universe would be constantly emitting and absorbing 21-cm photons, throughout its history. And that is correct! That is exact what 21-cm cosmology is about. By detecting ancient 21-cm signals, we can get a clear picture of the Universe's past.</p>
+									
+									<!--How does it actually work?-->
 									<header class="major">
 										<h3>How does this actually work?</h3>
 									</header>
 									<p> "Soon" after the Big Bang, roughly 370,000 years after and corresponding to a redshift of $z=1100$, the Universe underwent a rapid change from being opaque to transparent (called the <i>Recombination era</i>) when all protons and electrons combined to form hydrogen atoms. Now, I mentioned that hydrogen formed 3 minutes after the Big Bang; that's true, but a more accurate description would be that protons and electrons were submerged in a bath of photons that would constantly ionize hydrogen once formed. So there was a balance of combination and ionization, leading to not many hydrogen atoms sticking around. Over time, the photons lost enough of their energy to cosmic expansion that they could no longer reionize hydrogen, and lo! Recombination occured! Hydrogen was now abundant and these photons were free to whiz through the Universe, i.e. the Universe was transparent. We still observe these early photons, in the form of cosmic micorwave background (CMB), and they provide a wealth of information about the nature of the Universe and its past.</p>
+									
+									<!--How does this relate to the 21-cm?-->
 									<header class="major">
 										<h3>How does this relate to 21-cm?</h3>
 									</header>
 									<p> I was just getting to that! The CMB, as we know it, is the most perfect blackbody in nature, with a current temperature of $T_\text{CMB} \approx 3~\text{K}$. It follows Planck's law extra-ordinarily well. Which means that CMB photons are spread across all wavelengths, albeit with low probability away from the peak!
 									<div class="box alt">
-										<div class="row aln-center">
-											<div class="col-5">
+										<div class="custom-image">
+											<div class="half">
 												<span class="image fit"><img src="global-21cm-cosmological-signal/CMB-blackbody.png" alt="" /></span>
 											</div>
 										</div>
 									</div>
 									As these CMB photons hit patches of hydrogen atoms in their attempt to roam around the Universe, those in the 21-cm regime are absorbed to give an 'absorption signal'. Meanwhile, patches of hydrogen that are energetic enough may emit 21-cm wavelength and give 'emission signal'. Hence, the 21-cm signals are always measured in emision or absorption against the CMB spectrum. One can think of the CMB as a sort of "backlight" coming from the <i>the surface of last scattering</i> (technical term) towards us.</p>
 									<p>Now, imagine we are at the center of the Universe (in fact, this is accurate and perfectly valid due to the <i>Cosmological Principle</i>). We attempt to receive 21-cm signals from all directions. Patches of hydrogen across the sky give out emission/absorption signals that take time to reach us. Our cosmos is ever expanding, so these signals actually redshift as they travel (why? Well, redshift means moving towards redder wavelengths, i.e. higher wavelengths; imagine a sine wave stretching due to cosmic expansion). The deeper you look into space (on cosmological scales), the older the signal, and the more redshifted they are. Hence, the 21-cm signals are actually spread across many wavelengths, and not observed at 21-cm! Odd right? But that's the beauty of it: by observing the signals at different wavelengths, we can assign the signals at each wavelength to a particular time in the Universe's past. In our current visualization, this directly corresponds to "shells" around the Earth from which signals travelling towards us take the same amount of time to reach. Each shell is a distinct time in the Universe's history, or if you prefer, a redshift $z$ (note that redshift is defined as $z+1 = \lambda_\text{then}/\lambda_\text{now}$, so a higher redshift means older times). The 21-cm light from this shell, when it reaches us, would have the wavelength $\lambda = \lambda_{21}(1+z)$. Time, redshift and wavelength are equivalent ways to look at an instant in the Universe's past with regards to the 21-cm signal!</p>
-	
 									<p> For those with some technical background, I'll mention here that the 21-cm signals essentially form <i>spectral distortions</i> to the CMB black body in the frequency range 40 — 200 MHz.</p>
+									
+									<!--About the "global thing"...-->
 									<header class="major">
 										<h3>About the "global" thing...</h3>
 									</header>
 									<p> I keep using the word "patches". Well, hydrogen is not homogenuously distributed in the Universe; it is patchy and these patches evolve, merge, do the hanky-panky and all sorts. So in a particular shell around Earth, we may have some patches absorbing 21-cm signals and others emitting 21-cm signals. When these are averaged across the sky (across a shell essentially when a particular wavelength is picked), we get what is called the <i>global 21-cm signal</i>. If we have a net-emission, that means most hydrogen atoms are <i>more</i> energetic than their surrounding CMB photons, and the opposite in case of net-absorption.</p>
+									
+									<!--Give us some math!-->
 									<header class="major">
 										<h3>Give us some math!</h3>
 									</header>
@@ -108,12 +116,14 @@
 									</ol>
 									</p>
 									<div class="box alt">
-										<div class="row aln-center">
-											<div class="col-5">
+										<div class="custom-image">
+											<div class="half">
 												<span class="image fit"><img src="global-21cm-cosmological-signal/WF-coupling.png" alt="" /></span>
 											</div>
 										</div>
 									</div>
+									
+									<!--Bringing things together-->
 									<header class="major">
 										<h3>Bringing things together</h3>
 									</header>
@@ -122,20 +132,20 @@
 									We already introduced $T_\text{CMB}$, $T_M$ and $T_C$ — our main ingredients. The expression somewhat resembles a harmonic mean, with the coupling coefficients $x_\text{CMB}$, $x_c$ and $x_\alpha$ acting as the weights. These coefficients are not constant but change as a function of redshift $z$. For example, the collisional coupling coefficient $x_c$ intuitively depends on the density of electrons, proton and hydrogen atoms in the Universe. So, higher density $\rightarrow$ more collisions $\rightarrow$ stronger coupling to the matter temperature $T_M$! And the densities are changing over time (equivalently, over redshift) due to cosmic expansion. I alluded several times to the fact that what we "observe" is not the spin temperature itself, but its contrast with the CMB temperature. We define this quantity as the differential brightness temperature $\Delta T_\text{b}$ which is defined by:
 									\[\Delta T_\text{b} = \dfrac{\left(1-e^{-\tau_{21}}\right)}{1+z}\left(T_\text{s}-T_\text{CMB} \right).\]
 									Now, the exact expression is not important, but the main bit of interest is that $\Delta T_\text{b} \propto (T_\text{s}-T_\text{CMB})$. Recall how I said there would be no signal if $T_\text{s} = T_\text{CMB}$; this is why! Furthermore, $T_\text{s} > T_\text{CMB}$ corresponds to a net-emision signal and the other way around for net-absorption.</p>
+									
+									<!--Global signal evolution-->
 									<header class="major">
 										<h3>Global signal evolution</h3>
 									</header>
 									<p>A large amount of theoretical work has already gone into modelling the 21-cm spin temperature and differential brightness temperature; I refer interested readers to the wonderful reviews by <a href="https://arxiv.org/abs/astro-ph/0608032">Furlanetto, Oh & Briggs (2006)</a>; <a href="https://arxiv.org/abs/0802.2102">Pritchard & Loeb (2012)</a>; and <a href="https://arxiv.org/abs/1605.04357">Barkana (2016)</a>. These texts explain everything I have said so far with all the nitty-gritty technical details of the modelling (specifically, how the coupling coefficients and temperatures can be derived and simulated), and provide a lot more insight into the field of 21-cm cosmology itself.</p>
-	
 									<p>Here's where my work comes in. Through the summer of 2021, under the supervision of <b>Prof. Jens Chluba at the University of Manchester</b>, I recreated the 'standard' evolution of the $T_\text{s}$ and $\Delta T_\text{b}$ within this cosmological codes $\texttt{Recfast++}$ and $\texttt{CosmoTherm}$.</p> 
-	
 									<p>So what does this evolution actually look like? Let's look at the plots I produced in my work:</p>
 									<div class="box alt">
-										<div class="row aln-center">
-											<div class="col-6">
+										<div class="custom-image">
+											<div class="half">
 												<span class="image fit"><img src="global-21cm-cosmological-signal/21cm-signal-Ts.png" alt="" /></span>											
 											</div>
-											<div class="col-6">
+											<div class="half">
 												<span class="image fit"><img src="global-21cm-cosmological-signal/21cm-signal-dTb.png" alt="" /></span>									
 											</div>
 										</div>
@@ -150,27 +160,33 @@
 										<br/>
 										<li>$6 < z < 30 $ — BAM! What was that? Oh wow, we now have the first stars and galaxies forming. Intense! A redshift of $z=30$ is roughly 100 million years after the Big Bang. This era is called the Cosmic Dawn; the Universe just went from no stars during the Dark Ages to <i>looooots</i> of star formation and energetic photons, opening up the possibility for funky astrophysical activities to take place. These stars pump UV into the Universe which starts to heat up everything, slowing down $T_M$ from cooling and shooting it up towards higher temperatures from $z \sim 20$. Remember Wouthuysen-Field coupling? The Lyman-$\alpha$ photons from the stars kick start the WF mechanism through which we can again couple $T_\text{s}$ to $T_M$. This is why $T_\text{s}$ is jolted back towards $T_M$ at $z \sim 30$ and is strongly coupled to it by $z=20$. Hence, we see a massive absorption signal $\Delta T_\text{b}$ here, peaking around $z \sim 20$! In fact, not long after, $T_M$ (and with it, $T_\text{s}$) become higher than $T_\text{CMB}$, thereby decreasing the absorption signal to eventually become an emission signal!</li>
 										<br/>
-										<li>$z<6$ — At very recent times, you'll notice the plots are greyed out. This means that the abundance of stars and galaxies have introduced such a huge complexity into the Universe that basic models cannot capture things well. But does it matter? Well, not really! During the Cosmic Dawn and subsequent times, the stars have emitted so much UV light that all the hydrogen is ionized (an event called Reionization). If there are no hydrogen atoms, that means no 21-cm signal anymore. Hence, $\Delta T_\text{b}$ tends towards zero at such late times in the Universe (or equivalently, as we move closer to today).</li>
+										<li>$z < 6 $ — At very recent times, you'll notice the plots are greyed out. This means that the abundance of stars and galaxies have introduced such a huge complexity into the Universe that basic models cannot capture things well. But does it matter? Well, not really! During the Cosmic Dawn and subsequent times, the stars have emitted so much UV light that all the hydrogen is ionized (an event called Reionization). If there are no hydrogen atoms, that means no 21-cm signal anymore. Hence, $\Delta T_\text{b}$ tends towards zero at such late times in the Universe (or equivalently, as we move closer to today).</li>
 									</ul>
 									</p>
+									
+									<!--Consistency with literature-->
 									<header class="major">
 										<h3>Consistency with literature</h3>
 									</header>
 									<div class="box alt">
-										<div class="row aln-center">
-											<div class="col-4">
+										<div class="custom-image">
+											<div class="half">
 												<span class="image fit"><img src="global-21cm-cosmological-signal/21cm-signal-literature.png" alt="" /></span>											
 											</div>
-											<div class="col-7">
+											<div class="half">
 												<span class="image fit"><img src="global-21cm-cosmological-signal/21cm-illustration.png" alt="" /></span>									
 											</div>
 										</div>
 									</div>
 									<p>Like I said, my task was to recreate the standard evolution of the 21-cm signal. The first plot above is from <a href="https://arxiv.org/abs/0802.2102">Pritchard & Loeb (2008)</a>. It's largely consistent! Phew, such a relief. Furthermore, the second picture is an excellent illustration from <a href="https://arxiv.org/abs/0802.2102">Pritchard & Loeb (2012)</a> which links time since Big Bang, redshifts $z$, and the redshifted frequency of the signal $\nu$ (important for observations!) all with a nice figure of the patchiness of hydrogen (blue being absorption signal and red being emission signal) which was not relevant to my work (remember, 'global' signal is what I care about!).</p>
+									
+									<!--Why do we care?-->
 									<header class="major">
 										<h3>Why do we care?</h3>
 									</header>
 									<p>The 21-cm signal is one of the best probes for the Dark Ages and the Cosmic Dawn. By looking at the exact shape of $\Delta T_\text{b}$, we can extract information about the first stars and galaxies by putting constraints on a range of Reionization parameters. However, a detection of this global 21-cm signal has evaded us for a long time. The signal is heavily obscured by strong foreground galactic emissions, which need to be accurately modelled in order to be subtracted from the data. Furthermore, a detection requires a well calibrated antenna with the ability to make sensitive measurements! A number of such experiments chasing this signal are underway, and it will be exciting to see how upcoming detections can be used in conjunction with high-$z$ galaxy data from the JWST to make even better constraints on the history of our Universe!
+									
+									<!--Links-->
 									<header class="major">
 										<h3>Links to my work:</h3>
 									</header>
@@ -179,6 +195,7 @@
 									<li>A similar implementation in $\texttt{CosmoTherm}$ is not currently public. Stay tuned for upcoming publications!</li>
 									<li>As an addition to this project, I also made a Python wrapper for $\texttt{Recfast++}$ which can be found here: <a href="https://bitbucket.org/Jacetoto/recfast-.vx/src/Python-wrapper/">Recfast++ Python wrapper</a>.
 									<ul>
+
 								</div>
 							</section>
 

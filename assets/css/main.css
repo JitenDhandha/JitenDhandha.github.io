@@ -296,7 +296,7 @@ input, select, textarea {
 	}
 
 /* Row */
-
+/*
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1762,6 +1762,52 @@ input, select, textarea {
 						}
 
 		}
+*/
+
+/* Custom Image */
+
+	.custom-image {
+		display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		align-items: stretch;
+		justify-content: center;
+	}
+
+		.custom-image > .full {
+			width: 100%;
+		}
+
+		.custom-image > .half {
+			width: 49%;
+		}
+
+			.custom-image > .half:not(:first-child){
+				margin-left:1%
+			}
+
+		@media screen and (max-width: 480px) {
+
+			.custom-image {
+				display: flex;
+				flex-wrap: wrap;
+				box-sizing: border-box;
+				align-items: stretch;
+				justify-content: center;
+			}
+
+			.custom-image > .full {
+				width: 100%;
+			}
+
+			.custom-image > .half {
+				width: 100%;
+			}
+
+				.custom-image > .half:not(:first-child){
+					margin-left:0em
+				}
+	}
 
 /* Section/Article */
 
