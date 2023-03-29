@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+    <script type="text/javascript">
+        function reload_mathjax() {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        }
+    </script>
+
+    <title>JWST high-z literature</title>
+
+    <script src="./papers.json" type="text/javascript"></script>
+    <script src="./script.js" type="text/javascript"></script>
+
+    <link rel="icon" type="image/ico" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="padding-top:40px;padding-bottom:10px;text-align:center;font-size:400%;font-family:monospace;">JWST
+            high-\(z\) literature</h1>
+
+        <p>
+            This is a (probably incomplete) list of high-\(z\) papers, made in light of the flurry of exciting observations and results
+            from the JWST. The list is in chronological order of the first arXiv date of submission, and can be filtered using
+            the checkboxes below to categorize papers on the basis of the fields they include in the study. Fields with a * sign indicate
+            non-JWST complementary observations.
+        </p>
+
+        <p>
+            If you find a paper missing, please tweet at or directly message either me <a href="https://twitter.com/currysmologist">@currysmologist</a>
+            or Christian Kirkham <a href="https://twitter.com/1420megahertz">@1420megahertz</a>. Alternatively, you can also email me at 
+            <a href="mailto:jvd29@cam.ac.uk">jvd29@cam.ac.uk</a>.
+        </p>
+
+        <div id="checkboxes">
+            <h2>Field Filters</h2>
+
+            <span class="checkbox_container" style="color:SlateBlue">CEERS <input id="ceers_cbox" type="checkbox" onchange="main()"></span>
+            <span class="checkbox_container" style="color:MediumSeaGreen">GLASS <input id="glass_cbox" type="checkbox" onchange="main()"></span>
+            <span class="checkbox_container" style="color:GoldenRod">SMACS J0723.3-7323 <input id="smacs_cbox" type="checkbox"
+                    onchange="main()"></span>
+            <span class="checkbox_container" style="color:Brown">Other <input id="other_cbox" type="checkbox" onchange="main()"><span>
+        </div>
+
+        <hr size="4px" style="border:0"/>
+
+        <table id="main_table">
+        </table>
+
+		<div style="padding-top:30px; padding-bottom:40px;font-size:130%;text-align:right;">
+			Check out the rest of <a href="https://jitendhandha.com">my website</a>!
+		</div>
+    </div>
+</body>
+
+</html>
