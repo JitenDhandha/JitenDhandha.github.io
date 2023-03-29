@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url("https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 /*
@@ -2158,7 +2159,6 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
 		}
 
@@ -2172,6 +2172,10 @@ input, select, textarea {
 
 		.icon.solid:before {
 			font-weight: 900;
+		}
+
+		.icon.free:before {
+			font-family: 'Font Awesome 5 Free';
 		}
 
 		.icon.brands:before {
@@ -2447,6 +2451,32 @@ input, select, textarea {
 			ul.icons li {
 				padding: 0 0.75em 0 0;
 			}
+
+			ul.icons.stacked {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				margin-left: 0;
+				width: 100% !important;
+			}
+	
+				ul.icons.stacked li {
+					-moz-flex-grow: 1;
+					-webkit-flex-grow: 1;
+					-ms-flex-grow: 1;
+					flex-grow: 1;
+					-moz-flex-shrink: 1;
+					-webkit-flex-shrink: 1;
+					-ms-flex-shrink: 1;
+					flex-shrink: 1;
+					width: 100%;
+					padding: 1.3em 0 0 0;
+				}
+
+					ul.icons.stacked li:first-child {
+						padding-top: 0;
+					}
 
 		}
 
@@ -2877,7 +2907,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.1;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -3495,12 +3525,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #000000;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.3;
 			position: absolute;
 			top: 0;
 			width: 100%;
