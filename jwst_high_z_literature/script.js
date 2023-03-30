@@ -3,22 +3,24 @@ function main() {
     // Loop through list of papers and populate table
     // Get list of filter fields from checkboxes
     var filter_fields = [];
-    var not_other = ["CEERS", "GLASS", "SMACS J0723.3-7323"];
+    var all_fields = ["CEERS", 
+                     "GLASS",
+                     "SMACS J0723.3-7323",
+                     "Stephan's Quintet",
+                     "JADES"];
+    var all_field_colors = ["#76448a",
+                            "#117864",
+                            "#b7950b",
+                            "#f1948a",
+                            "#5dade2"];
 
-    if (document.getElementById("ceers_cbox").checked) {
-        filter_fields.push("CEERS");
+    for (const field of all_fields) {
+        if(document.getElementById(field.replace(' ','-') + "-cbox").checked){
+            filter_fields.push(field);
+        }
     }
-
-    if (document.getElementById("glass_cbox").checked) {
-        filter_fields.push("GLASS");
-    }
-
-    if (document.getElementById("smacs_cbox").checked) {
-        filter_fields.push("SMACS J0723.3-7323");
-    }
-
-    if (document.getElementById("other_cbox").checked) {
-        filter_fields.push("other");
+    if(document.getElementById("Other-cbox").checked){
+        filter_fields.push("Other");
     }
 
     // Set table HTML string to blank
@@ -43,9 +45,7 @@ function main() {
         }
     });
 
-    for (var i = 0; i < papers.length; i++) {
-        // Get paper element
-        var paper = papers[i];
+    for (const paper of papers) {
 
         // Get paper fields
         var fields = paper.fields;
@@ -55,12 +55,12 @@ function main() {
         if(filter_fields.length==0){
             show = true;
         } else {
-            for (var j = 0; j < filter_fields.length; j++) {
-                if(fields.includes(filter_fields[j])){
+            for (const filter_field of filter_fields) {
+                if(fields.includes(filter_field)){
                     show = true; break;
                 }
-                if(filter_fields[j]=="other"){
-                    var arr = fields.filter(a => !not_other.includes(a));
+                if(filter_field=="Other"){
+                    var arr = fields.filter(a => !all_fields.includes(a));
                     if(arr.length === 0){
                         show=false;
                     } else {
@@ -109,18 +109,16 @@ function main() {
 
             // Add fields to HTMl
             var fields_str = "Fields: ";
-            for (var k = 0; k < fields.length; k++) {
-                var field = fields[k];
-                var color_selector = "Brown";
-                if(field=="CEERS"){
-                    color_selector = "SlateBlue";
-                } else if(field=="GLASS"){
-                    color_selector = "MediumSeaGreen";
-                } else if(field=="SMACS J0723.3-7323"){
-                    color_selector = "GoldenRod";
+            for (var i=0; i<fields.length; i++) {
+                var field = fields[i];
+                var j = all_fields.indexOf(field);
+                if(j !== -1){
+                    var color_selector = all_field_colors[j];
+                } else {
+                    var color_selector = "#b03a2e";
                 }
                 fields_str += '<span style="color:' + color_selector + '">' + field + '</span>';
-                if (k!==fields.length-1){
+                if (i!==fields.length-1){
                     fields_str += ", ";
                 }
             }

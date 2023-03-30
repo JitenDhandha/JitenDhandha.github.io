@@ -9,6 +9,7 @@ p {
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 table tr {
     border-bottom: 2px solid black;
