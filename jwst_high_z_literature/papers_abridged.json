@@ -115,6 +115,18 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2207.14265",
         "fields": ["SMACS J0723.3-7323"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2212.02890",
+        "fields": ["GLASS","CEERS","RXJ-2129"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2212.06877",
+        "fields": ["SMACS J0723.3-7323","ALMA*"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2212.06863",
+        "fields": ["SMACS J0723.3-7323","ALMA*"]
     }
 ]
     
