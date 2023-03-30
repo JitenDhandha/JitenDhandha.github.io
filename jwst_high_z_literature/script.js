@@ -8,18 +8,23 @@ function main() {
                      "SMACS J0723.3-7323",
                      "Stephan's Quintet",
                      "JADES"];
+    var all_fields_cbox = ["ceers_cbox", 
+                     "glass_cbox",
+                     "smacs_cbox",
+                     "stephans_cbox",
+                     "jades_cbox"];
     var all_field_colors = ["#76448a",
                             "#117864",
                             "#b7950b",
                             "#f1948a",
                             "#5dade2"];
 
-    for (const field of all_fields) {
-        if(document.getElementById(field.replace(' ','-') + "-cbox").checked){
-            filter_fields.push(field);
+    for (var i=0; i<all_fields.length; i++) {
+        if(document.getElementById(all_fields_cbox[i]).checked){
+            filter_fields.push(all_fields[i]);
         }
     }
-    if(document.getElementById("Other-cbox").checked){
+    if(document.getElementById("other_cbox").checked){
         filter_fields.push("Other");
     }
 
