@@ -31,17 +31,17 @@ function main() {
         var [y1,m1,d1] = p1.date.split("/");
         var [y2,m2,d2] = p2.date.split("/");
         if((y2>y1) || (y2==y1 && m2>m1) || (y2==y1 && m2==m1 && d2>d1)){
-            return -1;
+            return +1;
         } else if (y2==y1 && m2==m1 && d2==d1){
             var n1 = p1.authors[0].split(",")[0];
             var n2 = p2.authors[0].split(",")[0];
             if(n2>n1){
-                return -1;
-            } else {
                 return +1;
+            } else {
+                return -1;
             }
         } else {
-            return +1;
+            return -1;
         }
     });
 
