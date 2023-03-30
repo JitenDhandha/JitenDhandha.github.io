@@ -127,6 +127,22 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2212.06863",
         "fields": ["SMACS J0723.3-7323","ALMA*"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2207.12388",
+        "fields": ["SMACS J0723.3-7323"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2207.12375",
+        "fields": ["SMACS J0723.3-7323"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2207.08778",
+        "fields": ["SMACS J0723.3-7323"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2207.10034",
+        "fields": ["SMACS J0723.3-7323"]
     }
 ]
     
