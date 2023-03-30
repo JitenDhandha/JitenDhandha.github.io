@@ -2,6 +2,11 @@ body {
     background-image: url("deep_field.jpg");
     font-family: sans-serif;
 }
+@media screen and (max-width: 736px) {
+    body {
+        font-size: 75%;
+    }
+}
 
 p {
     font-size: 130%;
@@ -35,7 +40,15 @@ table tr {
 
 .checkbox_container {
     padding: 20px;
-    font-size: 130%
+    font-size: 130%;
+}
+@media screen and (max-width: 1280px) {
+
+    .checkbox_container {
+        display: block;
+        width: 100%;
+        padding: 5px;
+    }
 }
 
 .arxiv_item {
