@@ -107,6 +107,14 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2208.01816",
         "fields": ["CEERS", "JCMT/SCUBA-2*", "NOEMA*"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2302.04270",
+        "fields": ["NGDEEP"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2207.14265",
+        "fields": ["SMACS J0723.3-7323"]
     }
 ]
     
