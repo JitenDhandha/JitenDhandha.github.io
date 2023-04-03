@@ -143,6 +143,10 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2207.10034",
         "fields": ["SMACS J0723.3-7323"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2209.04092",
+        "fields": ["PEARLS"]
     }
 ]
     
