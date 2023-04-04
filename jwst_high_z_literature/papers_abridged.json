@@ -147,6 +147,10 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2209.04092",
         "fields": ["PEARLS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2212.06683",
+        "fields": ["GLASS","CEERS","SMACS J0723.3-7323"]
     }
 ]
     
