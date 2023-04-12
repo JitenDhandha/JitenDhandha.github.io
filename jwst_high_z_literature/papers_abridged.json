@@ -94,7 +94,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2211.03896",
-        "fields": ["Stephan's Quintet","ALMA*"]
+        "fields": ["GLASS","CEERS","SMACS J0723.3-7323","Stephan's Quintet","ALMA*"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2303.15431",
@@ -147,6 +147,14 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2212.06683",
         "fields": ["GLASS","CEERS","SMACS J0723.3-7323"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2304.05378",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2304.05385",
+        "fields": ["CEERS"]
     }
 ]
     
