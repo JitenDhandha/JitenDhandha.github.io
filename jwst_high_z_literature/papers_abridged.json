@@ -114,7 +114,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2212.02890",
-        "fields": ["GLASS","CEERS","RXJ-2129"]
+        "fields": ["GLASS","CEERS","RXJ2129"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2212.06877",
@@ -162,7 +162,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2210.15699",
-        "fields": ["RX J2129"]
+        "fields": ["RXJ2129"]
     }
 ]
     
