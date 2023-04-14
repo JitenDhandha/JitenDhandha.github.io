@@ -90,7 +90,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2210.01777",
-        "fields": ["GO 2282"]
+        "fields": ["GO-2282"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2211.03896",
@@ -155,6 +155,10 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2304.05385",
         "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2304.06658",
+        "fields": ["GLASS","CEERS","SMACS J0723.3-7323","GO-1433"]
     }
 ]
     
