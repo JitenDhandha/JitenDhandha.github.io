@@ -58,7 +58,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2211.02607",
-        "fields": ["PID 1963","HUDF*","XDF*"]
+        "fields": ["JEMS","HUDF*","XDF*"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.12356",
@@ -159,6 +159,10 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2304.06658",
         "fields": ["GLASS","CEERS","SMACS J0723.3-7323","GO-1433"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2210.15699",
+        "fields": ["RX J2129"]
     }
 ]
     
