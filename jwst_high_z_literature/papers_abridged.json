@@ -163,6 +163,18 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2210.15699",
         "fields": ["RXJ2129"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2304.08516",
+        "fields": ["JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2304.08517",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2301.12825",
+        "fields": ["GLASS","CEERS","SMACS J0723.3-7323"]
     }
 ]
     
