@@ -175,6 +175,30 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2301.12825",
         "fields": ["GLASS","CEERS","SMACS J0723.3-7323"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2303.08149",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2303.08918",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2301.00027",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2210.14713",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2208.02562",
+        "fields": ["SMACS J0723.3-7323"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2212.04476",
+        "fields": ["RXJ2129"]
     }
 ]
     
