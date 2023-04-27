@@ -199,6 +199,18 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2212.04476",
         "fields": ["RXJ2129"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2304.11178",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2304.13721",
+        "fields": ["GLASS","CEERS","NGDEEP","PEARLS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2304.12347",
+        "fields": ["CEERS","COSMOS-Web","PRIMER"]
     }
 ]
     
