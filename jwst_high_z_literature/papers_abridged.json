@@ -22,19 +22,19 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.11558",
-        "fields": ["SMACS J0723.3-7323"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.12338",
-        "fields": ["SMACS J0723.3-7323"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.11217",
-        "fields": ["SMACS J0723.3-7323"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.11671",
-        "fields": ["SMACS J0723.3-7323"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2211.05792",
@@ -62,7 +62,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.12356",
-        "fields": ["GLASS","SMACS J0723.3-7323","CEERS","UltraVista*"]
+        "fields": ["GLASS","SMACS 0723","CEERS","UltraVista*"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.09434",
@@ -74,7 +74,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2208.01612",
-        "fields": ["GLASS","CEERS","SMACS J0723.3-7323","Stephan's Quintet"]
+        "fields": ["GLASS","CEERS","SMACS 0723","Stephan's Quintet"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2112.09141",
@@ -94,7 +94,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2211.03896",
-        "fields": ["GLASS","CEERS","SMACS J0723.3-7323","Stephan's Quintet","ALMA*"]
+        "fields": ["GLASS","CEERS","SMACS 0723","Stephan's Quintet","ALMA*"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2303.15431",
@@ -110,35 +110,35 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.14265",
-        "fields": ["SMACS J0723.3-7323"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2212.02890",
-        "fields": ["GLASS","CEERS","RXJ2129"]
+        "fields": ["GLASS","CEERS","RX J2129"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2212.06877",
-        "fields": ["SMACS J0723.3-7323","ALMA*"]
+        "fields": ["SMACS 0723","ALMA*"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2212.06863",
-        "fields": ["SMACS J0723.3-7323","ALMA*"]
+        "fields": ["SMACS 0723","ALMA*"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.12388",
-        "fields": ["SMACS J0723.3-7323"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.12375",
-        "fields": ["SMACS J0723.3-7323"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.08778",
-        "fields": ["SMACS J0723.3-7323"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.10034",
-        "fields": ["SMACS J0723.3-7323"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2209.04092",
@@ -146,7 +146,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2212.06683",
-        "fields": ["GLASS","CEERS","SMACS J0723.3-7323"]
+        "fields": ["GLASS","CEERS","SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2304.05378",
@@ -158,11 +158,11 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2304.06658",
-        "fields": ["GLASS","CEERS","SMACS J0723.3-7323","MACS0647–JD"]
+        "fields": ["GLASS","CEERS","SMACS 0723","MACS0647-JD"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2210.15699",
-        "fields": ["RXJ2129"]
+        "fields": ["RX J2129"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2304.08516",
@@ -174,7 +174,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2301.12825",
-        "fields": ["GLASS","CEERS","SMACS J0723.3-7323"]
+        "fields": ["GLASS","CEERS","SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2303.08149",
@@ -194,11 +194,11 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2208.02562",
-        "fields": ["SMACS J0723.3-7323"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2212.04476",
-        "fields": ["RXJ2129"]
+        "fields": ["RX J2129"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2304.11178",
@@ -206,7 +206,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2304.13721",
-        "fields": ["GLASS","CEERS","SMACS J0723.3-7323","NGDEEP","PEARLS"]
+        "fields": ["GLASS","CEERS","SMACS 0723","NGDEEP","PEARLS"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2304.12347",
@@ -214,11 +214,11 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2305.03042",
-        "fields": ["MACS0647–JD"]
+        "fields": ["MACS0647-JD"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2210.14123",
-        "fields": ["MACS0647–JD"]
+        "fields": ["MACS0647-JD"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2305.01793",
@@ -230,8 +230,8 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2304.14469",
-        "fields": ["GLASS","CEERS","SMACS J0723.3-7323","Stephan's Quintet","Cartwheel galaxy",
-                   "WHL0137","MACS0647-JD","RXJ 2129","PEARLS","UNCOVER","JEMS","J1235 Nircam Flats",
+        "fields": ["GLASS","CEERS","SMACS 0723","Stephan's Quintet","Cartwheel galaxy",
+                   "WHL0137","MACS0647-JD","RX J2129","PEARLS","UNCOVER","JEMS","J1235 Nircam Flats",
                    "DDT 2756"]
     }
 ]
