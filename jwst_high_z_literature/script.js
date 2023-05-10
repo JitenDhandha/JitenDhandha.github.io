@@ -5,19 +5,34 @@ function main() {
     var filter_fields = [];
     var all_fields = ["CEERS", 
                      "GLASS",
-                     "SMACS J0723.3-7323",
+                     "SMACS 0723",
                      "Stephan's Quintet",
-                     "JADES"];
+                     "JADES",
+                     "NGDEEP",
+                     "PEARLS",
+                     "UNCOVER",
+                     "MACS0647-JD",
+                     "RX J2129"];
     var all_fields_cbox = ["ceers_cbox", 
                      "glass_cbox",
                      "smacs_cbox",
                      "stephans_cbox",
-                     "jades_cbox"];
+                     "jades_cbox",
+                     "ngdeep_cbox",
+                     "pearls_cbox",
+                     "uncover_cbox",
+                     "macs_cbox",
+                     "rxj_cbox"];
     var all_field_colors = ["#76448a",
                             "#117864",
                             "#b7950b",
                             "#f1948a",
-                            "#5dade2"];
+                            "#5dade2",
+                            "#49156f",
+                            "#30e498",
+                            "#85a86a",
+                            "#e266b8",
+                            "#62ada6"];
 
     for (var i=0; i<all_fields.length; i++) {
         if(document.getElementById(all_fields_cbox[i]).checked){
