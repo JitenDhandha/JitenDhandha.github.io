@@ -233,6 +233,14 @@
         "fields": ["GLASS","CEERS","SMACS 0723","Stephan's Quintet","Cartwheel galaxy",
                    "WHL0137","MACS0647-JD","RX J2129","PEARLS","UNCOVER","JEMS","J1235 Nircam Flats",
                    "DDT 2756"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2302.02429",
+        "fields": ["GTO-1283"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2305.04741",
+        "fields": ["RIOJA"]
     }
 ]
     
