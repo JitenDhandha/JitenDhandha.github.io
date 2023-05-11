@@ -11,6 +11,7 @@ function main() {
                      "NGDEEP",
                      "PEARLS",
                      "UNCOVER",
+                     "JEMS",
                      "MACS0647-JD",
                      "RX J2129"];
     var all_fields_cbox = ["ceers_cbox", 
@@ -21,6 +22,7 @@ function main() {
                      "ngdeep_cbox",
                      "pearls_cbox",
                      "uncover_cbox",
+                     "jems_cbox",
                      "macs_cbox",
                      "rxj_cbox"];
     // Color scheme: https://colorswall.com/palette/105558
@@ -33,7 +35,8 @@ function main() {
                             "#03a9f4",
                             "#00bcd4",
                             "#009688",
-                            "#4caf50"];
+                            "#4caf50",
+                            "#8bc34a"];
 
     for (var i=0; i<all_fields.length; i++) {
         if(document.getElementById(all_fields_cbox[i]).checked){

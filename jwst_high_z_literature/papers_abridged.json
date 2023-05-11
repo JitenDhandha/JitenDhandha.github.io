@@ -58,11 +58,11 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2211.02607",
-        "fields": ["JEMS","HUDF*","XDF*"]
+        "fields": ["JEMS"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.12356",
-        "fields": ["GLASS","SMACS 0723","CEERS","UltraVista*"]
+        "fields": ["GLASS","SMACS 0723","CEERS"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.09434",
@@ -94,7 +94,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2211.03896",
-        "fields": ["GLASS","CEERS","SMACS 0723","Stephan's Quintet","ALMA*"]
+        "fields": ["GLASS","CEERS","SMACS 0723","Stephan's Quintet"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2303.15431",
@@ -102,7 +102,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2208.01816",
-        "fields": ["CEERS", "JCMT/SCUBA-2*", "NOEMA*"]
+        "fields": ["CEERS"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2302.04270",
@@ -118,11 +118,11 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2212.06877",
-        "fields": ["SMACS 0723","ALMA*"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2212.06863",
-        "fields": ["SMACS 0723","ALMA*"]
+        "fields": ["SMACS 0723"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2207.12388",
@@ -226,7 +226,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2212.10126",
-        "fields": ["HUDF*","ID 1963"]
+        "fields": ["GO-1963"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2304.14469",
