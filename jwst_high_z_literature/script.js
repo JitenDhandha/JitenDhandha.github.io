@@ -13,7 +13,8 @@ function main() {
                      "UNCOVER",
                      "JEMS",
                      "MACS0647-JD",
-                     "RX J2129"];
+                     "RX J2129",
+                     "WHL0137"];
     var all_fields_cbox = ["ceers_cbox", 
                      "glass_cbox",
                      "smacs_cbox",
@@ -24,7 +25,8 @@ function main() {
                      "uncover_cbox",
                      "jems_cbox",
                      "macs_cbox",
-                     "rxj_cbox"];
+                     "rxj_cbox",
+                     "whl_cbox"];
     // Color scheme: https://colorswall.com/palette/105558
     var all_field_colors = ["#f44336",
                             "#e81e63",
@@ -36,7 +38,8 @@ function main() {
                             "#00bcd4",
                             "#009688",
                             "#4caf50",
-                            "#8bc34a"];
+                            "#8bc34a",
+                            "#cddc39"];
 
     for (var i=0; i<all_fields.length; i++) {
         if(document.getElementById(all_fields_cbox[i]).checked){
