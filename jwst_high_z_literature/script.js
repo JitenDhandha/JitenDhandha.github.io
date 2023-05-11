@@ -23,16 +23,17 @@ function main() {
                      "uncover_cbox",
                      "macs_cbox",
                      "rxj_cbox"];
-    var all_field_colors = ["#76448a",
-                            "#117864",
-                            "#b7950b",
-                            "#f1948a",
-                            "#5dade2",
-                            "#49156f",
-                            "#30e498",
-                            "#85a86a",
-                            "#e266b8",
-                            "#62ada6"];
+    // Color scheme: https://colorswall.com/palette/105558
+    var all_field_colors = ["#f44336",
+                            "#e81e63",
+                            "#9c27b0",
+                            "#673ab7",
+                            "#3f51b5",
+                            "#2196f3",
+                            "#03a9f4",
+                            "#00bcd4",
+                            "#009688",
+                            "#4caf50"];
 
     for (var i=0; i<all_fields.length; i++) {
         if(document.getElementById(all_fields_cbox[i]).checked){
@@ -135,7 +136,7 @@ function main() {
                 if(j !== -1){
                     var color_selector = all_field_colors[j];
                 } else {
-                    var color_selector = "#b03a2e";
+                    var color_selector = "#ff9800";
                 }
                 fields_str += '<span style="color:' + color_selector + '">' + field + '</span>';
                 if (i!==fields.length-1){
