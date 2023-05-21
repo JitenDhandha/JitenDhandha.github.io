@@ -241,6 +241,14 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2305.04741",
         "fields": ["RIOJA"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2302.07234",
+        "fields": ["JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2208.03281",
+        "fields": ["SMACS 0723"]
     }
 ]
     
