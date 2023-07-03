@@ -244,7 +244,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2302.07234",
-        "fields": ["JADES"]
+        "fields": ["JADES","GN-z11"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2208.03281",
@@ -252,7 +252,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2305.12492",
-        "fields": ["JADES"]
+        "fields": ["JADES","GN-z11"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2305.14418",
@@ -284,15 +284,59 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2306.00953",
-        "fields": ["JADES"]
+        "fields": ["JADES","GN-z11"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2306.02468",
         "fields": ["JADES","JEMS","FRESCO"]
     },
     {
+        "arxiv_url": "https://arxiv.org/abs/2306.02470",
+        "fields": ["JADES"]
+    },
+    {
         "arxiv_url": "https://arxiv.org/abs/2306.02471",
         "fields": ["JADES"]
+    },
+
+    {
+        "arxiv_url": "https://arxiv.org/abs/2306.03120",
+        "fields": ["JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2306.04536",
+        "fields": ["JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2306.04627",
+        "fields": ["JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2306.06244",
+        "fields": ["NGDEEP"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2306.07940",
+        "fields": ["GLASS","CEERS","SMACS 0723","UNCOVER"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2306.09142",
+        "fields": ["JADES","GN-z11"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2306.11801",
+        "fields": ["JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2302.10142",
+        "fields": ["JADES","GN-z11"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2302.07256",
+        "fields": ["JADES","GN-z11"]
     }
 ]
+
+
+
     
