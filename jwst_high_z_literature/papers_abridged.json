@@ -334,6 +334,14 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2302.07256",
         "fields": ["JADES","GN-z11"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2307.00710",
+        "fields": ["GLASS","CEERS","SMACS 0723"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2306.17225",
+        "fields": ["CEERS"]
     }
 ]
 
