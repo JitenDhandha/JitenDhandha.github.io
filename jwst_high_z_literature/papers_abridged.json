@@ -342,6 +342,26 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2306.17225",
         "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2307.04234",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2307.06336",
+        "fields": ["GLASS","CEERS","MACS0647-JD","UNCOVER","RX J2129","JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2307.07535",
+        "fields": ["GLASS","CEERS","SMACS 0723","NGDEEP","PEARLS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2307.14414",
+        "fields": ["PID 1263"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.00751",
+        "fields": ["COSMOS-Web"]
     }
 ]
 
