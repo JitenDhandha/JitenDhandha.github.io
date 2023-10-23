@@ -236,7 +236,7 @@
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2302.02429",
-        "fields": ["GTO-1283"]
+        "fields": ["GTO 1283"]
     },
     {
         "arxiv_url": "https://arxiv.org/abs/2305.04741",
@@ -362,6 +362,154 @@
     {
         "arxiv_url": "https://arxiv.org/abs/2308.00751",
         "fields": ["COSMOS-Web"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2310.09327",
+        "fields": ["MAGNIF"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2310.06614",
+        "fields": ["GLASS","CEERS","SMACS 0723","JADES","FRESCO"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2310.03787",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2310.03081",
+        "fields": ["GLASS","CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2310.01276",
+        "fields": ["UNCOVER"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.15720",
+        "fields": ["JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.14961",
+        "fields": ["CEERS","JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.12049",
+        "fields": ["GLASS","CEERS","SMACS 0723","Stephan's Quintet"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.12049",
+        "fields": ["GLASS","CEERS","SMACS 0723","Stephan's Quintet"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.06656",
+        "fields": ["WERLS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.06470",
+        "fields": ["PID 1219", "PID 1222"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.06319",
+        "fields": ["PID 1262"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.05835",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.05835",
+        "fields": ["UNCOVER"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.04614",
+        "fields": ["EIGER"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.04377",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.02790",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.02504",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.02504",
+        "fields": ["MACS0647-JD","WHL0137","JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.02492",
+        "fields": ["FRESCO"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.02219",
+        "fields": ["GLASS","CEERS","SMACS 0723"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2309.00955",
+        "fields": ["CEERS","EIGER","FRESCO"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.14696",
+        "fields": ["PAR1199"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.13288",
+        "fields": ["CANUCS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.12823",
+        "fields": ["COSMOS-Web"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.12331",
+        "fields": ["CEERS","JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.11610",
+        "fields": ["UNCOVER"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.11609",
+        "fields": ["UNCOVER"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.10932",
+        "fields": ["COSMOS-Web"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.09742",
+        "fields": ["JADES"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.09076",
+        "fields": ["CEERS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.07260",
+        "fields": ["PEARLS"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.05735",
+        "fields": ["UNCOVER"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.05018",
+        "fields": ["GLASS","UNCOVER","CEERS","PRIMER","NGDEEP","JADES","PAR1199","J1235","PID 2738"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.03745",
+        "fields": ["UNCOVER"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.02750",
+        "fields": ["UNCOVER"]
+    },
+    {
+        "arxiv_url": "https://arxiv.org/abs/2308.02654",
+        "fields": ["GLASS","UNCOVER"]
     }
 ]
 

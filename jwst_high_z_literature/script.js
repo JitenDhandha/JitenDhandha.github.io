@@ -15,7 +15,10 @@ function main() {
                      "MACS0647-JD",
                      "RX J2129",
                      "WHL0137",
-                     "GN-z11"];
+                     "GN-z11",
+                     "COSMOS-Web",
+                     "PRIMER",
+                     "FRESCO"];
     var all_fields_cbox = ["ceers_cbox", 
                      "glass_cbox",
                      "smacs_cbox",
@@ -28,7 +31,10 @@ function main() {
                      "macs_cbox",
                      "rxj_cbox",
                      "whl_cbox",
-                     "gnz_cbox"];
+                     "gnz_cbox",
+                     "cosmos_cbox",
+                     "primer_cbox",
+                     "fresco_cbox"];
     // Color scheme: https://colorswall.com/palette/105558
     var all_field_colors = ["#f44336",
                             "#e81e63",
@@ -42,7 +48,10 @@ function main() {
                             "#4caf50",
                             "#8bc34a",
                             "#cddc39",
-                            "#ffc107"];
+                            "#ffc107",
+                            "#ff9800",
+                            "#ff5722",
+                            "#795548",];
 
     for (var i=0; i<all_fields.length; i++) {
         if(document.getElementById(all_fields_cbox[i]).checked){
@@ -145,7 +154,7 @@ function main() {
                 if(j !== -1){
                     var color_selector = all_field_colors[j];
                 } else {
-                    var color_selector = "#ff9800";
+                    var color_selector = "#607d8b";
                 }
                 fields_str += '<span style="color:' + color_selector + '">' + field + '</span>';
                 if (i!==fields.length-1){
