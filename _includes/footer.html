@@ -1,0 +1,50 @@
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				{% for key_value in site.socials %}
+					{% if key_value[1] %}
+						<li>
+							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
+								<span class="label">{{ key_value[0] }}</span>
+							</a>
+						</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+			<ul class="copyright">
+				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+				<li>Design from <a href="https://html5up.net" target="_blank">HTML5 UP</a> with Jekyll integration by <a href="https://github.com/andrewbanchich" target="_blank">Andrew Banchich</a></li>
+				<li>Banner image from <a href="https://webb.nasa.gov/" target="_blank">JWST</a> and tiles from <a href="https://spaceengine.org/">Space Engine</a></li>
+
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
+<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
+<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+<!-- Adding Magnific popup here -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script>
+	$('img.gallery').magnificPopup({
+	  type: 'image',
+	  gallery:{
+		enabled:true
+	  },
+	  callbacks: {
+		elementParse: function(item) {
+			item.src = item.el.attr('src');
+		}
+	  }
+	});
+</script>
+<!-- Adding MathJax support here -->
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+    <script type="text/javascript">document.body.classList.add("is-loading");</script>
+
+    {% include header.html %}
+
+	<!-- Main -->
+	<div id="main" class="alt">
+
+		<section id="one">
+			<div class="inner">
+				<header class="major">
+					<h1>{{ page.title }}</h1>
+					<h3><i class="icon fa-calendar" aria-hidden="true"></i> {{ page.date | date: "%B %d, %Y" }}</h3>
+				</header>
+				
+				{{ content }}
+			</div>
+		</section>
+	
+	</div>
+	
+	{% include footer.html %}
+
+</body>
+
+</html>

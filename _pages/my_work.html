@@ -1,0 +1,18 @@
+---
+layout: page
+title: My work
+permalink: '/my-work'
+description: 'A meander into the world of astro</br> What I do, and what I love...'
+image: assets/images/SE_img2.jpg
+in_nav_menu: true
+show_tile: true
+tile_num: 2
+---
+
+<div id="postfeed">
+    {% for post in site.posts %}
+        <h2 class="underlined"><a href="{{ post.url }}" class="post-tile">{{ post.title }}</a></h2>
+        <h4><span><i class="icon fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}</span></h4>
+        <p>{{ post.description }} <a href="{{ post.url }}">Read more...</a></p> 
+    {% endfor %}
+</div>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+    <script type="text/javascript">document.body.classList.add("is-loading");</script>
+
+    {% include header.html %} 
+	<section id="banner" class="style{{page.tile_num | module: 6}}">
+		<div class="inner">
+			<span class="image">
+				<img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+			</span>
+			<header class="major">
+				<h1>{{ page.title }}</h1>
+			</header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ page.description }}</p>
+            </div>
+		</div>
+	</section>
+
+	<!-- Main -->
+	<div id="main" class="alt">
+
+		<section id="contact">
+			<div class="inner">
+				<section>
+					<form action="https://formspree.io/f/xyyanyvg" method="POST">
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input type="text" name="name" placeholder="e.g. Galileo Galilei" id="name" required/>
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" placeholder="e.g. GalGal@gmail.com" id="email" required/>
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" placeholder="e.g. My telescope is bigger than your telescope!" rows="6" required></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="special" /></li>
+							<li><input type="reset" value="Clear" /></li>
+						</ul>
+					</form>
+				</section>
+				<section class="split">
+					<section>
+						<div class="contact-method">
+							<span class="icon alt fa-envelope"></span>
+							<h3>Contact</h3>
+							<span>Whether it is for academic purposes, or you just want to casually chat, please do contact me!<br/><br/>
+								<b>Personal:</b> <a href="mailto:jitendhandha@gmail.com">jitendhandha [a] gmail [dot] com</a>
+								<b>Academic:</b> <a href="mailto:jvd29@cam.ac.uk">jvd29 [a] cam [dot] ac [dot] uk</a>
+							</span>
+						</div>
+					</section>
+					<section>
+						<div class="contact-method">
+							<span class="icon alt fa-home"></span>
+							<h3>Visit</h3>
+							<span>
+								<i>If you ever find yourself in Cambridge, please shoot me a message for a nice masala chai 
+								or a hearty curry, and I would be absolutely delighted to have you as a guest :)</i>
+							</span>
+						</div>
+					</section>
+				</section>
+			</div>
+		</section>
+	
+	</div>
+	
+	{% include footer.html %}
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+---
+---
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+
+/*
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+	@include skel-breakpoints((
+		xlarge: '(max-width: 1680px)',
+		large: '(max-width: 1280px)',
+		medium: '(max-width: 980px)',
+		small: '(max-width: 736px)',
+		xsmall: '(max-width: 480px)',
+		xxsmall: '(max-width: 360px)'
+	));
+
+	@include skel-layout((
+		reset: 'full',
+		boxModel: 'border',
+		grid: ( gutters: 2em ),
+		breakpoints: (
+			large: (
+				grid: ( gutters: 1.5em )
+			),
+			small: (
+				grid: ( gutters: 1.25em )
+			)
+		)
+	));
+
+	@mixin inner {
+		> .inner {
+			@include padding(4em, 0);
+			margin: 0 auto;
+			max-width: _size(inner);
+			width: calc(100% - 6em);
+
+			@include breakpoint(small) {
+				@include padding(3em, 0);
+				width: calc(100% - 3em);
+			}
+		}
+	}
+
+// Base.
+
+	@import 'base/page';
+	@import 'base/typography';
+
+// Component.
+
+	@import 'components/section';
+	@import 'components/form';
+	@import 'components/box';
+	@import 'components/icon';
+	@import 'components/image';
+	@import 'components/list';
+	@import 'components/table';
+	@import 'components/button';
+	@import 'components/tiles';
+	@import 'components/contact-method';
+	@import 'components/spotlights';
+
+// Layout.
+
+	@import 'layout/header';
+	@import 'layout/banner';
+	@import 'layout/main';
+	@import 'layout/contact';
+	@import 'layout/footer';
+	@import 'layout/wrapper';
+	@import 'layout/menu';
+
+
+// Custom.
+
+// Customize the appearance of the arXiv feed
+#arxivfeed {
+	font-family: _font(family);
+	font-weight: _font(weight-bold);
+	letter-spacing: _font(letter-spacing);
+	a:link[title="Abstract"] {
+		color: rgb(215, 240, 55);
+	}
+	.list-title {
+		color: rgb(136, 168, 250)
+	}
+	.list-authors {
+		font-style: italic;
+	}
+}
+
+// Add a thick padded underline to h2 elements
+// This is copied from the _sass/components/_section.scss file
+// and modified to be a class
+h1, h2, h3, h4, h5, h6 {
+	&.underlined {
+		width: max-content;
+		margin-bottom: 0;
+		&:after {
+			content: '';
+			background-color: _palette(fg-bold);
+			display: block;
+			height: 2px;
+			margin: 0.325em 0 0.5em 0;
+			width: calc(100% + .5em);
+		}
+	}
+}
+
+// Add a gallery class to the image component
+// Note that only gallery images appear in magnific popup (see _includes/footer.html)
+.image {
+	&.gallery {
+		object-fit: cover;
+		border: 0.1em solid _palette(fg);
+		&.fourth {
+			width: 24.5%;
+			aspect-ratio: 1/1;
+			@include breakpoint(small) {
+				width: 49%;
+			}
+		}
+		&.third {
+			width: 33%;
+			aspect-ratio: 1/1;
+		}
+		&.half {
+			width: 49%;
+			aspect-ratio: 1/1;
+		}
+
+		
+	}
+}
+
+// Customize the post feed
+#postfeed {
+	a:link {
+		color: rgb(215, 240, 55);
+	}
+}
