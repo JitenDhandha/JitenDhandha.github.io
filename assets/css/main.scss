@@ -88,12 +88,14 @@
 	letter-spacing: _font(letter-spacing);
 	a:link[title="Abstract"] {
 		color: rgb(215, 240, 55);
+		font-size: 100%!important;
 	}
 	.list-title {
-		color: rgb(136, 168, 250)
+		color: rgb(136, 168, 250);
+		font-size: 105%!important;
 	}
 	.list-authors {
-		font-style: italic;
+		font-size: 100%!important;
 	}
 }
 
@@ -120,7 +122,6 @@ h1, h2, h3, h4, h5, h6 {
 .image {
 	&.gallery {
 		object-fit: cover;
-		border: 0.1em solid _palette(fg);
 		&.fourth {
 			width: 24.5%;
 			aspect-ratio: 1/1;
@@ -136,8 +137,6 @@ h1, h2, h3, h4, h5, h6 {
 			width: 49%;
 			aspect-ratio: 1/1;
 		}
-
-		
 	}
 }
 

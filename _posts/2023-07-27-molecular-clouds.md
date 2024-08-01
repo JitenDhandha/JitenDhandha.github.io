@@ -6,7 +6,7 @@ description: Molecular clouds, the birth-places of stars in our Universe, perfor
 date: 2023-07-27
 ---
 
-<div class="video">
+<div class="video gallery">
     <video controls width="100%">
     <source src="{{ site.baseurl }}/assets/files/molecular-clouds/2D_simulations.mp4" type="video/mp4">
     </video>
@@ -20,7 +20,7 @@ What you’re looking at is a giant molecular cloud of $$10,000~\mathrm{M}_\odot
 
 The simulations shown here were perfomed using the adaptive mesh refinement code $$\texttt{AREPO}$$. The cloud is initially spherical, and is set into motion by a turbulent velocity field, different for each panel in the video above. Since the cloud is gravitationally unstable, it collapses to form stars. In 3D, they clouds looks like this:
 
-![]({{ site.baseurl }}/assets/files/molecular-clouds/3D_plot_0.png ){: .image .fit}
+![]({{ site.baseurl }}/assets/files/molecular-clouds/3D_plot.png ){: .image .fit .gallery}
 
 where the colour represents the density of the gas, red being the densest. What gives rise to this turbulence? In reality, it could be a variety of sources: large scale events like shear forces in spiral arms of galaxies, magnetic instabilities; local events like supernovae, stellar winds; or even the cloud’s own gravity. In the simulations, we inject turbulence via the initial velocity field and let in decay as the cloud is evolved in time. The simulations are run for a few million years (Myrs), enough time for the cloud to collapse and form stars. The simulations are run on supercomputers, and take days to complete a single run.
 
@@ -28,7 +28,7 @@ where the colour represents the density of the gas, red being the densest. What 
 
 An interesting aspect of these clouds is that during collapse, they form a network of thin, dense lines (filaments) which are hot-spots for star formation. Our current understanding is that dense clumps form preferentially along these filaments, like *beads on a string*, and eventually collapse to form stars and stellar clusters. Below is a snapshot of a single cloud mid-collapse, with filaments traced using $$\texttt{DisPerSE}$$, a filament-finding algorithm.
 
-![]({{ site.baseurl }}/assets/files/molecular-clouds/Filament_example.png ){: .image .fit}
+![]({{ site.baseurl }}/assets/files/molecular-clouds/Filament_example.png ){: .image .fit .gallery}
 
 ### Massive stars and hubs
 
