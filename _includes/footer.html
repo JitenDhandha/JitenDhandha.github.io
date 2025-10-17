@@ -1,22 +1,18 @@
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
-			<ul class="icons">
-				{% for key_value in site.socials %}
-					{% if key_value[1] %}
-						<li>
-							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-								<span class="label">{{ key_value[0] }}</span>
-							</a>
-						</li>
-					{% endif %}
-				{% endfor %}
+			<ul class="icons" style="display:flex;justify-content:center;">
+				<li><a href="https://arxiv.org/a/dhandha_j_1" class="icon alt ai ai-arxiv"></a></li>
+				<li><a href="https://orcid.org/0000-0002-1481-0907" class="icon alt ai ai-orcid"></a></li>
+				<li><a href="https://scholar.google.com/citations?user=RjlmcA0AAAAJ" class="icon alt ai ai-google-scholar"></a></li>
+				<li><a href="https://ui.adsabs.harvard.edu/search/?q=author%3A%22Dhandha%2C+Jiten%22" class="icon alt ai ai-ads"></a></li>
+				<li><a href="https://github.com/JitenDhandha" class="icon alt fa fa-github"></a></li>
+				<li><a href="https://bsky.app/profile/currysmologist.bsky.social" class="icon alt fa fa-bluesky"></a></li>
 			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
 				<li>Design from <a href="https://html5up.net" target="_blank">HTML5 UP</a> with Jekyll integration by <a href="https://github.com/andrewbanchich" target="_blank">Andrew Banchich</a></li>
 				<li>Banner image from <a href="https://webb.nasa.gov/" target="_blank">JWST</a> and tiles from <a href="https://spaceengine.org/">Space Engine</a></li>
-
 			</ul>
 		</div>
 	</footer>

@@ -5,26 +5,14 @@
 
 	text-decoration: none;
 
-	&:#{$where} {
-
-		@if $content {
-			content: $content;
-		}
-
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
+	&.fa {
 		font-family: "FontAwesome";
-		font-style: normal;
-		font-weight: normal;
-		text-transform: none !important;
+		width: 2em !important; /// Over-writing the FontAwesome width which is 1.25em for some reason?
 	}
-
+	
 	&.ai {
-		&:#{$where} {
-			font-family: "Academicons";
-		}
+		font-family: "Academicons";
 	}
-
 
 }
 
