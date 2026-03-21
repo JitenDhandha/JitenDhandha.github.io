@@ -16,9 +16,16 @@
 		{% assign pages = site.html_pages | sort: "tile_num" %}
 		{% for page in pages %}
 		    {% if page.in_nav_menu == true %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+				<li>
+					{% if page.external_tile_url %}
+						<a href="{{ page.external_tile_url }}" target="_blank" rel="noopener noreferrer">
+							{{ page.title }} <span class="icon fa fa-link" style="font-size:0.8em;vertical-align:middle;" aria-label="External link"></span>
+						</a>
+					{% else %}
+						<a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
+					{% endif %}
+				</li>
 		    {% endif %}
 		{% endfor %}
-		<li><a href="https://raw.githubusercontent.com/JitenDhandha/CV/main/CV.pdf" class="button special icon fa-download">Curriculum Vitae</a></li>
 	</ul>
 </nav>

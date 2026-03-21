@@ -6,9 +6,16 @@
       <img src="{{ tile.image }}" alt="{{ tile.title }}" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
+      {% if tile.external_tile_url %}
+        <h3>{{ tile.title }} <span class="icon fa fa-link" style="font-size:0.8em;vertical-align:middle;" aria-label="External link"></span></h3>
+      {% else %}
+        <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
+      {% endif %}
       <p>{{ tile.description }}</p>
     </header>
+    {% if tile.external_tile_url %}
+      <a href="{{ tile.external_tile_url }}" class="tile-link" target="_blank" rel="noopener noreferrer" aria-label="{{ tile.title }}"></a>
+    {% endif %}
   </article>
   {% endfor %}
 </section>

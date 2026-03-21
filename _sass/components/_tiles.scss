@@ -1,3 +1,16 @@
+// Make the whole tile clickable for external links
+.tile-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	text-indent: -9999px;
+	background: transparent;
+	cursor: pointer;
+	border-bottom: none !important;
+}
 ///
 /// Forty by HTML5 UP
 /// html5up.net | @ajlkn
