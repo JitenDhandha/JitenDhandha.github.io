@@ -49,6 +49,19 @@
 			position: relative;
 			width: 40%;
 
+			// First row: two tiles, each 50%
+			&:nth-child(1),
+			&:nth-child(2) {
+				width: 50%;
+			}
+
+			// Second row: three tiles, each 33.333%
+			&:nth-child(3),
+			&:nth-child(4),
+			&:nth-child(5) {
+				width: 33.3333%;
+			}
+
 			.image {
 				display: none;
 			}
@@ -115,10 +128,7 @@
 				opacity: 0;
 			}
 
-			&:nth-child(4n - 1),
-			&:nth-child(4n - 2) {
-				flex: 1 auto;
-			}
+			// Removed flex: 1 auto for consistent sizing
 
 			&:nth-child(6n - 5) {
 				&:before {
