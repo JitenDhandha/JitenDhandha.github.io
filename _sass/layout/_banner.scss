@@ -17,10 +17,10 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
+		height: 40vh; // JD: CHANGE HEIGHT OF BANNER HERE
 		margin-bottom: -3.25em;
-		max-height: 32em;
-		min-height: 22em;
+		max-height: 40em;
+		min-height: 23em;
 		position: relative;
 		top: -3.25em;
 
@@ -91,16 +91,6 @@
 					letter-spacing: _font(letter-spacing-alt);
 					text-transform: uppercase;
 				}
-			}
-		}
-
-		&.major {
-			height: 75vh;
-			min-height: 30em;
-			max-height: 50em;
-
-			&.alt {
-				  opacity: 0.75;
 			}
 		}
 
