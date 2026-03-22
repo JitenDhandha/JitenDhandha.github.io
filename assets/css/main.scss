@@ -81,38 +81,23 @@
 
 // Custom.
 
-// Customize the appearance of the arXiv feed
-#arxivfeed {
-	font-family: _font(family);
-	font-weight: _font(weight-bold);
-	letter-spacing: _font(letter-spacing);
-	a:link[title="Abstract"] {
-		color: rgb(215, 240, 55);
-		font-size: 100%!important;
-	}
-	.list-title {
-		color: rgb(136, 168, 250);
-		font-size: 105%!important;
-	}
-	.list-authors {
-		font-size: 100%!important;
-	}
-}
-
 // Add a thick padded underline to h2 elements
 // This is copied from the _sass/components/_section.scss file
 // and modified to be a class
 h1, h2, h3, h4, h5, h6 {
 	&.underlined {
-		width: max-content;
+		/* Allow wrapping and prevent overflow */
+		white-space: normal;
+		word-break: break-word;
 		margin-bottom: 0;
+		/* Remove width:max-content to allow wrapping */
 		&:after {
 			content: '';
 			background-color: _palette(fg-bold);
 			display: block;
 			height: 2px;
 			margin: 0.325em 0 0.5em 0;
-			width: calc(100% + .5em);
+			width: 100%;
 		}
 	}
 }
