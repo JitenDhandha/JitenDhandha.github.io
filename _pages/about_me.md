@@ -10,19 +10,19 @@ tile_num: 1
 ---
 
 <img class="image gallery fourth" src="/assets/images/about_me_img1.jpg"
-title="PhD matriculation ceremony at Pembroke College, University of Cambridge, UK, in October 2022."/>
+title="PhD matriculation ceremony at Pembroke College, University of Cambridge, UK (October 2022)."/>
 <img class="image gallery fourth" src="/assets/images/about_me_img2.jpg"
-title="PhD cohort trip to Durham, UK, in August 2023. Image credit: Erin Hayes"/>
+title="PhD cohort trip to Durham, UK (August 2023). Image credit: Erin Hayes"/>
 <img class="image gallery fourth" src="/assets/images/about_me_img3.jpg"
-title="REACH annual meeting 2023 at University of Malta, Valletta, in September 2023. Image credit: unknown."/>
+title="REACH annual meeting 2023 at University of Malta, Valletta (September 2023). Image credit: unknown."/>
 <img class="image gallery fourth" src="/assets/images/about_me_img4.jpg"
-title="REACH annual meeting 2024 in Mahabaleshwar, India, in September 2024. Image credit: Christian Kirkham."/>
+title="REACH annual meeting 2024 in Mahabaleshwar, India (September 2024). Image credit: Christian Kirkham."/>
 <img class="image gallery fourth" src="/assets/images/about_me_img5.jpg"
-title="7th Global 21-cm Workshhop at Raman Research Institute, Bangalore, India, in October 2024."/>
+title="7th Global 21-cm Workshop at Raman Research Institute, Bangalore, India, in October 2024."/>
 <img class="image gallery fourth" src="/assets/images/about_me_img6.jpg"
-title="Seminar at Institut d'Astrophysique Spatiale, Paris, France, in November 2025. Image credit: Adélie Gorce."/>
+title="Seminar at Institut d'Astrophysique Spatiale, Paris, France (November 2025). Image credit: Adélie Gorce."/>
 <img class="image gallery fourth" src="/assets/images/about_me_img7.jpg"
-title="Cosmology in the Alps 2026 conference in Les Diablerets, Switzerland, in March 2026. Image credit: Nadia Cooper."/>
+title="Cosmology in the Alps 2026 in Les Diablerets, Switzerland (March 2026). Image credit: Nadia Cooper."/>
 
 
 ## Who am I?
