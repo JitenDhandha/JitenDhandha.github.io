@@ -18,7 +18,7 @@ title="REACH annual meeting 2023 at University of Malta, Valletta (September 202
 <img class="image gallery fourth" src="/assets/images/about_me_img4.jpg"
 title="REACH annual meeting 2024 in Mahabaleshwar, India (September 2024). Image credit: Christian Kirkham."/>
 <img class="image gallery fourth" src="/assets/images/about_me_img5.jpg"
-title="7th Global 21-cm Workshop at Raman Research Institute, Bangalore, India, in October 2024."/>
+title="7th Global 21-cm Workshop at Raman Research Institute, Bangalore, India (October 2024)."/>
 <img class="image gallery fourth" src="/assets/images/about_me_img6.jpg"
 title="Seminar at Institut d'Astrophysique Spatiale, Paris, France (November 2025). Image credit: Adélie Gorce."/>
 <img class="image gallery fourth" src="/assets/images/about_me_img7.jpg"
