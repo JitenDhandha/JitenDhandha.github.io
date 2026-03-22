@@ -7,5 +7,5 @@ image: assets/images/SE_img3.jpg
 in_nav_menu: true
 show_tile: true
 tile_num: 3
-external_tile_url: https://ui.adsabs.harvard.edu/user/libraries/-9hd8iXUQl6bWu8xYksd5A
+external_tile_url: https://scholar.google.com/citations?user=RjlmcA0AAAAJ
 ---
