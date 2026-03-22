@@ -122,6 +122,14 @@ h1, h2, h3, h4, h5, h6 {
 .image {
 	&.gallery {
 		object-fit: cover;
+
+		&.fifth {
+			width: 19%;
+			aspect-ratio: 1/1;
+			@include breakpoint(small) {
+				width: 49%;
+			}
+		}
 		&.fourth {
 			width: 24.5%;
 			aspect-ratio: 1/1;
@@ -138,6 +146,11 @@ h1, h2, h3, h4, h5, h6 {
 			aspect-ratio: 1/1;
 		}
 	}
+}
+
+// Override Magnific Popup caption font size
+.mfp-title {
+	font-size: 0.75em !important;
 }
 
 // Customize the post feed

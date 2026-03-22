@@ -9,10 +9,20 @@ show_tile: true
 tile_num: 1
 ---
 
-![]({{ site.baseurl }}/assets/images/about_me_img1.png){: .image .gallery .fourth}
-![]({{ site.baseurl }}/assets/images/about_me_img3.png){: .image .gallery .fourth}
-![]({{ site.baseurl }}/assets/images/about_me_img2.jpg){: .image .gallery .fourth}
-![]({{ site.baseurl }}/assets/images/about_me_img4.jpg){: .image .gallery .fourth}
+<img class="image gallery fourth" src="/assets/images/about_me_img1.jpg"
+title="PhD matriculation ceremony at Pembroke College, University of Cambridge, UK, in October 2022."/>
+<img class="image gallery fourth" src="/assets/images/about_me_img2.jpg"
+title="PhD cohort trip to Durham, UK, in August 2023. Image credit: Erin Hayes"/>
+<img class="image gallery fourth" src="/assets/images/about_me_img3.jpg"
+title="REACH annual meeting 2023 at University of Malta, Valletta, in September 2023. Image credit: unknown."/>
+<img class="image gallery fourth" src="/assets/images/about_me_img4.jpg"
+title="REACH annual meeting 2024 in Mahabaleshwar, India, in September 2024. Image credit: Christian Kirkham."/>
+<img class="image gallery fourth" src="/assets/images/about_me_img5.jpg"
+title="7th Global 21-cm Workshhop at Raman Research Institute, Bangalore, India, in October 2024."/>
+<img class="image gallery fourth" src="/assets/images/about_me_img6.jpg"
+title="Seminar at Institut d'Astrophysique Spatiale, Paris, France, in November 2025. Image credit: Adélie Gorce."/>
+<img class="image gallery fourth" src="/assets/images/about_me_img7.jpg"
+title="Cosmology in the Alps 2026 conference in Les Diablerets, Switzerland, in March 2026. Image credit: Nadia Cooper."/>
 
 
 ## Who am I?
