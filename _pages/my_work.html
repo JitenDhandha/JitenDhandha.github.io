@@ -11,8 +11,17 @@ tile_num: 2
 
 <div id="postfeed">
     {% for post in site.posts %}
-        <h2 class="underlined"><a href="{{ post.url }}" class="post-tile">{{ post.title }}</a></h2>
-        <h4><span><i class="icon fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}</span></h4>
-        <p>{{ post.description }} <a href="{{ post.url }}">Read more...</a></p> 
+        <article class="post-preview">
+            {% if post.preview_image %}
+            <a href="{{ post.url }}" class="post-preview-image">
+                <img src="{{ site.baseurl }}/{{ post.preview_image }}" alt="{{ post.preview_alt | default: post.title }}">
+            </a>
+            {% endif %}
+            <div class="post-preview-description">
+                <h2 class="underlined"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <p>{{ post.description }}</p>
+                <a href="{{ post.url }}" class="button special small">Read more</a>
+            </div>
+        </article>
     {% endfor %}
 </div>
