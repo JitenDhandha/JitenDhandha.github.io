@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-// Display My Work posts as alternating, fixed-height image previews.
+// Display posts as alternating, fixed-height image previews.
 .post-preview {
 	display: flex;
 	align-items: center;
@@ -205,4 +205,11 @@ h1, h2, h3, h4, h5, h6 {
 			flex-direction: column;
 		}
 	}
+}
+
+
+// Add a class to narrow the post content width
+.post-content {
+    max-width: 52rem;
+	margin: 0 auto;
 }
