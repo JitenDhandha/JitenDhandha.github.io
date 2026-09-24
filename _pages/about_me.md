@@ -7,23 +7,20 @@ image: assets/images/SE_img1.jpg
 in_nav_menu: true
 show_tile: true
 tile_num: 1
+narrow: true
 ---
 
-<img class="image gallery fourth" src="/assets/images/about_me_img1.jpg"
+<img class="image gallery third" src="/assets/images/about-me-2022.jpg"
 title="PhD matriculation ceremony at Pembroke College, University of Cambridge, UK (October 2022)."/>
-<img class="image gallery fourth" src="/assets/images/about_me_img2.jpg"
-title="PhD cohort trip to Durham, UK (August 2023). Image credit: Erin Hayes"/>
-<img class="image gallery fourth" src="/assets/images/about_me_img3.jpg"
-title="REACH annual meeting 2023 at University of Malta, Valletta (September 2023)."/>
-<img class="image gallery fourth" src="/assets/images/about_me_img4.jpg"
+<img class="image gallery third" src="/assets/images/about-me-2024-1.jpg"
 title="REACH annual meeting 2024 in Mahabaleshwar, India (September 2024). Image credit: Christian Kirkham."/>
-<img class="image gallery fourth" src="/assets/images/about_me_img5.jpg"
+<img class="image gallery third" src="/assets/images/about-me-2024-2.jpg"
 title="7th Global 21-cm Workshop at Raman Research Institute, Bangalore, India (October 2024)."/>
-<img class="image gallery fourth" src="/assets/images/about_me_img6.jpg"
+<img class="image gallery third" src="/assets/images/about-me-2025.jpg"
 title="Seminar at Institut d'Astrophysique Spatiale, Paris, France (November 2025). Image credit: Adélie Gorce."/>
-<img class="image gallery fourth" src="/assets/images/about_me_img7.jpg"
+<img class="image gallery third" src="/assets/images/about-me-2026-1.jpg"
 title="Cosmology in the Alps 2026 in Les Diablerets, Switzerland (March 2026). Image credit: Nadia Cooper."/>
-<img class="image gallery fourth" src="/assets/images/about_me_img8.jpg"
+<img class="image gallery third" src="/assets/images/about-me-2026-2.jpg"
 title="Partial solar eclipse at Cambridge, UK (August 2026). Image credit: Claudia Jano."/>
 
 
@@ -35,7 +32,9 @@ title="Partial solar eclipse at Cambridge, UK (August 2026). Image credit: Claud
 {% assign diffSeconds = nowTimestamp | minus: dateStart %}
 {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | divided_by: 365 %}
 
-Hello! My name is Jiten Dhandha. I am {{ diffDays | round: 0 }} years old. I was born in Gujarat, India, but did my undergraduate and masters at the _University of Manchester_ in the UK. I subsequently did my PhD student at the _Institute of Astronomy_, University of Cambridge, studying the cosmological 21-cm signal, its observations through various radio telescopes, and how it can be used in conjunction with other cosmological probes such as the James Webb Space Telescope (JWST). I am now at the _Kavli Institute for the Physics and Mathematics of the Universe_ (IPMU) in Tokyo, Japan, as a postdoctoral research fellow continuing my work on the Cosmic Dawn (when the first stars and galaxies formed) and the Epoch of Reionization (when they subsequently ionized the intergalactic medium).
+Hello! My name is Jiten Dhandha. I am {{ diffDays | round: 0 }} years old. I was born in Gujarat, India, but did my undergraduate and masters at the _University of Manchester_ in the UK. I subsequently did my PhD student at the _Institute of Astronomy_, University of Cambridge, studying the cosmological 21-cm signal, its observations through various radio telescopes, and how it can be used in conjunction with other cosmological probes such as the James Webb Space Telescope (JWST). 
+
+I am currently a postdoctoral research fellow at the _Kavli Institute for the Physics and Mathematics of the Universe_ (IPMU) in Tokyo, Japan, continuing my work on the Cosmic Dawn (when the first stars and galaxies formed) and the Epoch of Reionization (when they subsequently ionized the intergalactic medium).
 
 ## Outside of work
 {: .underlined}
