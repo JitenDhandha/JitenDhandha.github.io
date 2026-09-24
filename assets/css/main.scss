@@ -207,8 +207,57 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-
-// Use the theme's full width by default, with an opt-in narrow layout.
+// Allow pages to opt into a narrower content width.
 #main > * > .inner.narrow {
-    max-width: 52rem;
+	max-width: 52rem;
+}
+
+// Show a sticky table of contents beside post content on wide screens.
+.post-toc {
+	display: none;
+}
+
+@media screen and (min-width: 981px) {
+	.post-layout {
+		display: grid;
+		grid-template-columns: 12rem minmax(0, 1fr);
+		gap: 8em;
+		align-items: start;
+	}
+
+	.post-content {
+		min-width: 0;
+	}
+
+	.post-toc {
+		display: block;
+		position: sticky;
+		top: 5em;
+
+		h3 {
+			font-size: 0.8em;
+			margin-bottom: 1em;
+			text-transform: uppercase;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			border-left: solid 1px _palette(border);
+			padding: 0 0 0.75em 0.75em;
+
+			&.post-toc-h3 {
+				padding-left: 1.5em;
+			}
+		}
+
+		a {
+			border: 0;
+			font-size: 0.8em;
+		}
+	}
 }

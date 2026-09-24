@@ -247,6 +247,24 @@
 			});
 
 		// Menu.
+			var $postContent = $('.post-content'),
+				$postToc = $('#post-toc');
+
+			$postContent.children('h2, h3').each(function(index) {
+				var $heading = $(this),
+					id = $heading.attr('id') || 'post-section-' + index;
+
+				$heading.attr('id', id);
+				$('<li>')
+					.addClass('post-toc-' + this.tagName.toLowerCase())
+					.append($('<a>').attr('href', '#' + id).text($heading.text()))
+					.appendTo($postToc);
+			});
+
+			if ($postToc.length && !$postToc.children().length)
+				$('#post-toc-sidebar').remove();
+
+		// Menu.
 			var $menu = $('#menu'),
 				$menuInner;
 

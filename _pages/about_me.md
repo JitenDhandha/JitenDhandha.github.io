@@ -8,6 +8,7 @@ in_nav_menu: true
 show_tile: true
 tile_num: 1
 narrow: true
+
 ---
 
 <img class="image gallery third" src="/assets/images/about-me-2022.jpg"

@@ -4,7 +4,7 @@ title: "Part I: What is the 21-cm signal?"
 permalink: '/21-cm-basics'
 description: Hydrogen is the most abundant element in the Universe. How does this fact, and the fact that radio telescopes are just cheap metal poles and dishes, come together to tell us something crucial about the early Universe?
 preview_image: assets/files/21-cm-cosmology/preview.png
-narrow: true
+
 ---
 
 ### Whence come hydrogen?
@@ -19,12 +19,12 @@ Since they form so early on, we can rightly say that in addition to filling all 
 
 ### The 21-cm line
 
-![]({{ site.baseurl }}/assets/files/21-cm-cosmology/21cmSpinFlip.png){: .image .gallery}
-
 The proton and electron inside a hydrogen atom have a property called its _spin_. In its usual ground energy state, the hydrogen atom is actually split into two 'hyperfine' states due to the interaction between both the spins. If their spins are aligned, their magnetic dipole moments are anti-aligned, and this is a less preferable energy state (i.e. higher energy). If their spins are anti-aligned, their magnetic dipole moments are aligned, and this is a more stable energy state (i.e. lower energy; for those familiar with electromagnetics, this is the equivalent of two parallel wires attracting each other). A transition, or rather a _spin flip_, from the higher energy state to the lower energy state corresponds to the release of a very tiny amount of energy: $$E_{21} \approx 5.9 \times 10^{-6}~\text{eV}$$m in the form of light (a photon) of wavelength $$\lambda_{21} \approx 21.1~\text{cm}$$ or equivalently frequency $$\nu_{21} \approx 1420~\text{MHz}$$. Compared to the photons from a light bulb, which are in the visible spectrum, $$\lambda_\text{bulb} \approx 500~\text{nm}$$ and $$\nu_\text{bulb} \approx 600~\text{THz}$$, the 21-cm line is in the radio spectrum. It is not too different from the radio waves that would be used to transmit your favourite radio station, or your WiFi, or bluetooth, or your microwave. They all belong to the $$\text{MHz}$$ to $$\text{GHz}$$ frequency range of the electromagnetic spectrum.
 <!---
 To put that energy scale to reference, a standard $$50~\text{W}$$ light bulb emits $$E_\text{bulb} \approx 3.1\times 10^{20}~\text{eV}$$ per second. Although that is an unfair comparison of a single photon from hydrogen and trillions/quadrillion photons from a light bulb.
 !-->
+
+![]({{ site.baseurl }}/assets/files/21-cm-cosmology/21cmSpinFlip.png){: .image .gallery}
 
 ### What comes after they form?
 

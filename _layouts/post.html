@@ -17,11 +17,19 @@
 	<div id="main" class="alt">
 
 		<section id="one">
-			<div class="inner{% if page.narrow %} narrow{% endif %}">
+			<div class="inner">
+				<div class="post-layout">
+					<aside id="post-toc-sidebar" class="post-toc" aria-label="On this page">
+						<h3>On this page</h3>
+						<ul id="post-toc"></ul>
+					</aside>
+					<div class="post-content">
 					<header class="major">
 						<h2>{{ page.title }}</h2>
 					</header>
 					{{ content }}
+					</div>
+				</div>
 			</div>
 		</section>
 	
