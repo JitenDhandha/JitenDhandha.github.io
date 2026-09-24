@@ -4,6 +4,7 @@ title: "Part I: What is the 21-cm signal?"
 permalink: '/21-cm-basics'
 description: Hydrogen is the most abundant element in the Universe. How does this fact, and the fact that radio telescopes are just cheap metal poles and dishes, come together to tell us something crucial about the early Universe?
 preview_image: assets/files/21-cm-cosmology/preview.png
+narrow: true
 ---
 
 ### Whence come hydrogen?

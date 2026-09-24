@@ -208,8 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-// Add a class to narrow the post content width
-.post-content {
+// Use the theme's full width by default, with an opt-in narrow layout.
+#main > * > .inner.narrow {
     max-width: 52rem;
-	margin: 0 auto;
 }

@@ -17,13 +17,11 @@
 	<div id="main" class="alt">
 
 		<section id="one">
-			<div class="inner">
-				<div class="post-content">
+			<div class="inner{% if page.narrow %} narrow{% endif %}">
 					<header class="major">
 						<h2>{{ page.title }}</h2>
 					</header>
 					{{ content }}
-				</div>
 			</div>
 		</section>
 	
