@@ -138,19 +138,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 0.75em !important;
 }
 
-// Customize the post feed
-#postfeed {
-	a:not(.button):link {
-		color: rgb(215, 240, 55);
-	}
-}
-
 // Display posts as alternating, fixed-height image previews.
 .post-preview {
 	display: flex;
 	align-items: center;
 	gap: 1em;
-	margin: 0 0 3em;
+	margin: 0 0 2em;
 	padding: 1em;
 	border: solid 1px _palette(border);
 	background: _palette(bg-alt);
