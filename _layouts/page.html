@@ -30,8 +30,20 @@
 	<div id="main" class="alt">
 
 		<section id="one">
-			<div class="inner{% if page.narrow %} narrow{% endif %}">
-				{{ content }}
+			<div class="inner">
+				{% if page.add_toc %}
+				<div class="post-layout">
+					<aside id="post-toc-sidebar" class="post-toc" aria-label="On this page">
+						<h3>On this page</h3>
+						<ul id="post-toc"></ul>
+					</aside>
+					<div class="post-content">
+						{{ content }}
+					</div>
+				</div>
+				{% else %}
+					{{ content }}
+				{% endif %}
 			</div>
 		</section>
 	

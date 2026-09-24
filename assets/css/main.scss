@@ -200,11 +200,6 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-// Allow pages to opt into a narrower content width.
-#main > * > .inner.narrow {
-	max-width: 52rem;
-}
-
 // Show a sticky table of contents beside post content on wide screens.
 .post-toc {
 	display: none;
@@ -220,6 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	.post-content {
 		min-width: 0;
+		scroll-margin-top: 2em;
 	}
 
 	.post-toc {

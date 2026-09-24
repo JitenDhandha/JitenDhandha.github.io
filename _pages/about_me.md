@@ -7,8 +7,7 @@ image: assets/images/SE_img1.jpg
 in_nav_menu: true
 show_tile: true
 tile_num: 1
-narrow: true
-
+add_toc: true
 ---
 
 <img class="image gallery third" src="/assets/images/about-me-2022.jpg"

@@ -18,6 +18,7 @@
 
 		<section id="one">
 			<div class="inner">
+				{% if page.add_toc %}
 				<div class="post-layout">
 					<aside id="post-toc-sidebar" class="post-toc" aria-label="On this page">
 						<h3>On this page</h3>
@@ -30,6 +31,12 @@
 					{{ content }}
 					</div>
 				</div>
+				{% else %}
+					<header class="major">
+						<h2>{{ page.title }}</h2>
+					</header>
+					{{ content }}
+				{% endif %}
 			</div>
 		</section>
 	
