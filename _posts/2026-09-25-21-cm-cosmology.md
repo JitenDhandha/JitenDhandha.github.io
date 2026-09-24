@@ -31,7 +31,10 @@ To put that energy scale to reference, a standard $$50~\text{W}$$ light bulb emi
 
 Once all the hydrogen in the Universe has formed, it does not become detectable immediately. The hydrogen atoms constantly ionize (i.e. the protons and electrons separate) and recombine due to the large energy of its surrounding. When the Universe has cooled enough (and indeed it continues cooling), the Universe becomes transparent and hydrogen atoms become stable in an event called ***Recombination*** at $$t_\text{age}\sim 300,000~\text{years}$$ after the Big Bang. This is linked to the ***Cosmic Microwave Background***, when light first starts to stream freely through the transparent Universe.
 
-A single hydrogen atom left on its own in the higher energy state would take $$30~\text{million}$$ years to emit the 21-cm signal. If you have enough of them however, they would statistically be emitting this signal constantly. Hence, once _Recombination_ happens, we can: **a)** expect the stable hydrogen atoms to emit 21-cm photons, and **b)** expect the radio waves to reach us because the Universe is transparent.
+A single hydrogen atom left on its own in the higher energy state would take $$30~\text{million}$$ years to emit the 21-cm signal. However, if you have lots of large patches of hydrogen everywhere in the Universe, it is statistically likely that they would be constantly emitting (and also absorbing) 21-cm photons, throughout its history. Hence, once _Recombination_ happens, we can: **a)** expect the stable hydrogen atoms to emit and absorb 21-cm photons, and **b)** expect the radio waves to reach us because the Universe is transparent.
+
+
+<p>One can expect that lots of patches of hydrogen everywhere in the Universe would be constantly emitting and absorbing 21-cm photons, throughout its history. And that is correct! That is exact what 21-cm cosmology is about. By detecting ancient 21-cm signals, we can get a clear picture of the Universe's past.</p>
 
 ### What happens after they emit the signal?
 
