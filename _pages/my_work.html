@@ -16,10 +16,6 @@ tile_num: 2
             <a href="{{ post.url }}" class="post-preview-image">
                 <img src="{{ site.baseurl }}/{{ post.preview_image }}" alt="{{ post.preview_alt | default: post.title }}">
             </a>
-            {% elsif post.youtube_id %}
-            <div class="post-preview-video">
-                <iframe src="https://www.youtube.com/embed/{{ post.youtube_id }}" title="{{ post.title }}" allowfullscreen></iframe>
-            </div>
             {% endif %}
             <div class="post-preview-description">
                 <h2 class="underlined">

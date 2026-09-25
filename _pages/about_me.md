@@ -24,7 +24,7 @@ title="Cosmology in the Alps 2026 in Les Diablerets, Switzerland (March 2026). I
 title="Partial solar eclipse at Cambridge, UK (August 2026). Image credit: Claudia Jano."/>
 
 
-## Who am I?
+### Who am I?
 {: .underlined}
 
 {% assign dateStart = "2000-03-02" | date: '%s' %}
@@ -36,7 +36,15 @@ Hello! My name is Jiten Dhandha. I am {{ diffDays | round: 0 }} years old. I was
 
 I am currently a postdoctoral research fellow at the _Kavli Institute for the Physics and Mathematics of the Universe_ (IPMU) in Tokyo, Japan, continuing my work on the Cosmic Dawn (when the first stars and galaxies formed) and the Epoch of Reionization (when they subsequently ionized the intergalactic medium).
 
-## Outside of work
+### What do I do?
+{: .underlined}
+
+For a peek into my inspiration and journey into cosmology, and my work as part of the PhD, check out the interview below with Dr. Harley Katz, a former Boustany Foundation Astronomy PhD scholar at the University of Cambridge and now assistant professor at the University of Chicago.
+<div class="youtube-embed">
+<iframe src="https://www.youtube.com/embed/Pwd4ZUomV3g" title="Jiten Dhandha's journey into cosmology" allowfullscreen></iframe>
+</div>
+
+### What else do I do?
 {: .underlined}
 
 When I am not raving about space, ranting about errors in my analysis codes or involving myself in too many projects, I find myself doing one or more of the following things (in no specific order):
