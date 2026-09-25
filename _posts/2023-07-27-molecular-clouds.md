@@ -2,7 +2,7 @@
 layout: post
 title: "An intricate dance of turbulence and gravity"
 permalink: '/my-work/molecular-clouds'
-description: Molecular clouds, the birth-places of stars in our Universe, perform a mesmerizing and intricate dance of intricately turbulence and self-gravity. As part of my Master's project, we explored the evolution of these clouds and the importance of filamentary networks within them.
+description: Molecular clouds, the birth-places of stars in our Universe, perform a mesmerizing and intricate dance of turbulence and self-gravity. As part of my Master's project, we explored the evolution of these clouds and the importance of filamentary networks within them.
 preview_image: assets/files/molecular-clouds/preview.png
 add_toc: true
 
